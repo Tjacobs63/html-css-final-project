@@ -14,6 +14,7 @@
     
 }
 
+
 body {
     width: 100%
     max-width: 1200px;
@@ -74,17 +75,20 @@ margin: 0 auto;
     text-decoration: underline;
 }
 
-h1 {
+h1{
     top: 50px;
     position: relative;
     margin: 10px 24px;
     
 }
-.prototype-illustration {
-   width: 50%;
 
-  margin-left: 600px;
-  display: flex;
-  top: 50px;
-  padding: 10px;
+h1, 
+.header__description {
+    display: flex;
+
+    align-items: center;
+
 }
+.prototype-illustration {
+   width: 60%;
+   margin-left: 600px;
