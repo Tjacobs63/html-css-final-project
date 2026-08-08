@@ -9,14 +9,20 @@
     
 }
 
-
-#landing{
-  
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
-
+body {
+    width: 100%
+    max-width: 1200px;
+   
+    
 }
+
+.logo {
+    width: 100px;
+    height: 100px;
+padding: 10px;
+margin-top: 16px;
+}
+
 
 nav {
     display: flex;
@@ -31,19 +37,16 @@ margin: 0 auto;
 
 }
 
+.nav__container--text {
+    color: #a020f0;
+  }
+
+
 .nav__links {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-decoration: none;
-    color: black;
-    
-  
+   display: flex;
+  align-items: center;
+  gap: 24px;
+  list-style: none;
+  padding: 10px
+
 }
- h3{
-    padding: 8px;
-    color: purple;
-    display:flex;
-    justify-content: center;
-  
- }
