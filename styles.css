@@ -28,11 +28,15 @@ nav {
 width: 100%;
 max-width: 1200px;
 margin: 0 auto;
+
 }
 
 .nav__links {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    text-decoration:  underline;
+  
 }
+ h3{
+    padding: 8px;
+ }
