@@ -140,15 +140,34 @@ h1,
     align-items: center;
     text-align: center;
     padding: 20px;
-    margin-top: -30px;
+    margin: 50px 450px
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
+}
+
+h1 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-size: 16px;
+    padding: 24px;
+}
+  
+h3 {
+   
+    display: flex;
+    justify-content:left;
+    text-size: 8px;
+padding: 24px;
 }
 
 
 .prototype-illustration {
-   width: 60%;
-   margin-left: 600px;
+   width: 60%;t: 
+Margin-top:  -100px;
    background-color: white;
-   padding: 20px;
-  margin: 0px  24px;
+   padding: 100px;
+   margin: 20px  550px;
 }
