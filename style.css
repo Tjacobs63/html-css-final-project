@@ -26,11 +26,18 @@ h3 {
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 48px;
     font-weight: 700;
-    align-items: center;
+    line-height: 1.2;
     display: flex;
     justify-content: center;
+    padding: 12px 0;
+
+}
+p{
+    font-size: 16px;
+    line-height: 1.2;
+    padding: 12px 0;
 
 }
 
@@ -44,8 +51,7 @@ a:hover {
 
 .row {
    width: 40%;
-   border: 2px solid #ccc;
-   padding: 20px;
+      padding: 20px;
 }
 
 
@@ -68,6 +74,10 @@ a:hover {
 
 .purple {
     color: #6415ff;
+    display: flex;
+    flex-wrap: wrap;
+    
+
 }
 
 section {
@@ -199,22 +209,25 @@ nav {
     right: 18px;
 }
 
-.row__title {
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 1.5;
-    margin-bottom: 32x;
 
-}
-.row__title, .row__subtitle {
+.row__subtitle {
     margin: 0;
+    margin: bottom: 24px;
+    padding: 20px;
 }
 .design-illustration {
     width: 60%;
     height: auto;
    
-   
-   
+    .button {
+    background-color: #6415ff;
+    color: white;
+    border-radius: 9999px;
+    padding: 12px 32px;
+    }
+   .btn__email:hover [
+    background-color: #6415ff;
+   ]
     
 /* 
 
