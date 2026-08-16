@@ -43,7 +43,7 @@ a:hover {
 
 
 .row {
-   width: 40%%;
+   width: 40%;
    border: 2px solid #ccc;
    padding: 20px;
 }
@@ -55,7 +55,7 @@ a:hover {
     max-width: 1024px;
     margin: 0 auto;
 
-
+}
 
 .container {
     display:flex;
