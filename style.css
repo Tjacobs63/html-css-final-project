@@ -31,7 +31,9 @@ h1 {
     line-height: 1.2;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 12px 0;
+    text-align: center;
 
 }
 p{
@@ -210,24 +212,8 @@ nav {
 }
 
 
-.row__subtitle {
-    margin: 0;
-    margin: bottom: 24px;
-    padding: 20px;
-}
-.design-illustration {
-    width: 60%;
-    height: auto;
-   
-    .button {
-    background-color: #6415ff;
-    color: white;
-    border-radius: 9999px;
-    padding: 12px 32px;
-    }
-   .btn__email:hover [
-    background-color: #6415ff;
-   ]
+
+
     
 /* 
 
@@ -241,7 +227,33 @@ header .row {
     align-items: center;
     justify-content: space-between;
 }
+.row__subtitle {
+    margin: 0;
+    margin: bottom: 24px;
+    padding: 20px;
+}
+.design-illustration {
+    width: 60%;
+    height: auto;
+   
+}
 
+.button {
+    background-color: #6415ff;
+    color: white;
+    border-radius: 9999px;
+    padding: 12px 32px;
+    }
+
+    .btn__email {
+        background-color: #6415ff;
+        color: white;
+        border-radius: 9999px;
+        padding: 12px 32px;
+    }
+
+ 
+  
 
 /* 
 
