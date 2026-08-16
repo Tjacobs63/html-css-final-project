@@ -25,9 +25,22 @@ h3 {
     font-size: 12px
 }
 
-a {
-    tex-decoration: none;
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
 }
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
 
 .row {
     width: 100%;
@@ -41,6 +54,9 @@ a {
     margin: 0 auto;
 }
 
+.row__description {
+    display: block;
+}
 .container {
     padding: 96px 0;
     display:flex;
@@ -78,9 +94,14 @@ nav {
    
 }
 
-.nav__row {
+.row.nav__row {
+   width: 100%;
+   max-width: 1200px;
+   padding: 0 24px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .nav__logo {
@@ -96,12 +117,14 @@ nav {
 .nav__links {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: right;
     gap: 32px;
     text-decoration: none;
-    justify-content: space-between;
-    
+    margin: 24px 0;
+   
 }
+
+
 
 .nav__link--sign-up {
     background-color: #6415ff;
@@ -180,7 +203,11 @@ nav {
     right: 18px;
 }
 
-
+.design-illustration {
+    width: 60%;
+    height: auto;
+    margin-top: 16px 16px 16px;
+}
 /* 
 
 HEADER / ABOUT US ↓
