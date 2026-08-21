@@ -20,12 +20,6 @@ nav {
     height: 100px;
     display: flex;
 }
-h3 {
-    padding: 12px 0;
-    font-size: 12px
-   align-items: center;
-   text-align: center;
-}
 
 h1 {
     font-size: 48px;
@@ -38,17 +32,34 @@ h1 {
     text-align: center;
 
 }
+
+h3 {
+    padding: 24px;
+    font-size: 12px
+    text-align: center;
+    margin-bottom: 24px;
+
+     
+}
+
 p{
     font-size: 16px;
     line-height: 1.2;
-    padding: 12px 0;
+    padding: 24px;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
 
+}
+
+.input {
+    padding: 24px;
 }
 
 .img {
     width: 100%;
     height: auto;
-    padding: 16px;
+    padding: 24px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -239,22 +250,34 @@ nav {
 HEADER / ABOUT US ↓
 
 */
-
-
-header .row {
+.header__description{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    padding: 20px;
+
 }
+
+.customer__logo {
+    
+    width: 100%;
+    height: auto;
+    align-items: center;
+    padding: 20px;
+
+}
+
+   
 .row__subtitle {
     margin: 0;
     margin: bottom: 24px;
     padding: 20px;
 }
 .design__illustration {
-    width: 40%;
-    height: auto;
+    width: 50px;
+    height: 50px;
     padding: 20px;
+    align-items: left;
    
 }
 
