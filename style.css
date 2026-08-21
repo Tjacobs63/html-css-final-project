@@ -45,6 +45,14 @@ p{
 
 }
 
+.img {
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 a {
     text-decoration: none;
 }
@@ -55,7 +63,8 @@ a:hover {
 
 .row {
    width: 40%;
-      padding: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
 }
 
 
@@ -78,7 +87,7 @@ a:hover {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
 }
 
 
@@ -242,9 +251,10 @@ header .row {
     margin: bottom: 24px;
     padding: 20px;
 }
-.design-illustration {
-    width: 60%;
+.design__illustration {
+    width: 40%;
     height: auto;
+    padding: 20px;
    
 }
 
@@ -259,7 +269,7 @@ header .row {
         background-color: #6415ff;
         color: white;
         border-radius: 9999px;
-        padding: 12px 32px;
+        padding: 16px;
     }
 
  
