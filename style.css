@@ -127,11 +127,13 @@ label{
     margin-left: 249x;
 }
 
-li {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
 
+li{
+    display: grid;
+    gird-template-columns: repeat (3, 1fr);
+    gap: 10px;
+    list-style: none;
+    padding: 0;
 }
 
 /* 
@@ -343,9 +345,22 @@ FEATURES ↓
         font-size: 24px;
     }
 
+    .Features__service {
+    display: grid; /* Use CSS Grid */
+    grid-template-columns: repeat(3, 1fr); /* Create three equal columns */
+    gap: 20px; /* Space between the grid items */
+    padding: 20px; /* Optional: padding around the entire grid */
+}
+
+.features__service-item {
+    border: 1px solid #0f0e0e; /* Optional: border around each item */
+    padding: 10px; /* Optional: padding inside each item */
+    text-align: center; /* Center the text inside each item */
+    background-color: #aba2c9; /* Optional: background color */
+}
 
 
-    
+  
 /* 
 
 QUALITY WORK ↓
