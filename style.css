@@ -271,9 +271,15 @@ HEADER / ABOUT US ↓
 .header__description{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 20px;
 
+}
+
+.header__description,
+header figure {
+  width: 48%;
 }
 
 .customer__logo {
@@ -308,6 +314,7 @@ button {
         border-radius: 9999px;
         padding: 8px;
         margin-bottom: 24px;
+        align-items: center;
     }
 
  
