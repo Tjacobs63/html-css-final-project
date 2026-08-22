@@ -35,9 +35,10 @@ h1 {
 
 h3 {
     padding: 24px;
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
     margin-bottom: 24px;
+    color: purple;
 
      
 }
@@ -74,8 +75,9 @@ a:hover {
 
 
 .row {
-   width: 40%;
-  padding: 20px;
+  width: 100%;
+  padding: 8px;
+  align-content: right;
   flex-wrap: wrap;
 }
 
@@ -130,7 +132,7 @@ label{
 
 li{
     display: grid;
-    gird-template-columns: repeat (3, 1fr);
+    grid-template-columns: repeat (3, 1fr);
     gap: 10px;
     list-style: none;
     padding: 0;
@@ -356,7 +358,7 @@ FEATURES ↓
     border: 1px solid #0f0e0e; /* Optional: border around each item */
     padding: 10px; /* Optional: padding inside each item */
     text-align: center; /* Center the text inside each item */
-    background-color: #aba2c9; /* Optional: background color */
+    background-color: #e3dbfd; /* Optional: background color */
 }
 
 
@@ -502,7 +504,7 @@ MOBILE RESPONSIVENESS ↓
         padding: 80px 32px;
     }
 }
-}
+
 
 @media(max-width: 640px) {
     .container {
