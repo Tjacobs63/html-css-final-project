@@ -171,7 +171,8 @@ nav {
 }
 
 .nav__logo h3 {
-    font-size: 24px;
+    margin: 0;
+    max-width: 500px;   font-size: 24px;
     font-weight: 900;
 }
 
@@ -288,11 +289,10 @@ HEADER / ABOUT US ↓
     padding: 20px;
 }
 .design__illustration {
-    width: 50px;
-    height: 50px;
-    padding: 0 32px;
-    align-items: left;
-   
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  padding: 0;
 }
 
 button {
