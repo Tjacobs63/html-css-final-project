@@ -16,7 +16,7 @@ body {
     overflow-x: hidden;
 }
 
-nav { 
+nav {
     height: 100px;
     display: flex;
 }
@@ -27,7 +27,7 @@ h1 {
     line-height: 1.2;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+  flex-wrap: wrap;
     padding: 12px 0;
     text-align: center;
 
@@ -113,6 +113,7 @@ a:hover {
     color: #6415ff;
     display: flex;
     flex-wrap: wrap;
+   margin-left: 8px;
     
 
 }
@@ -375,7 +376,6 @@ QUALITY WORK ↓
     justify-content: space-between;
     align-items: center;
 }
-
 
 /* 
 
