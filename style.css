@@ -61,8 +61,8 @@ p{
     width: 100%;
     height: auto;
     padding: 24px;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: 32px;
+
 }
 
 a {
@@ -314,6 +314,7 @@ button {
         border-radius: 9999px;
         padding: 8px;
         margin-bottom: 24px;
+        margin-top: 24px;
         align-items: center;
     }
 
@@ -342,9 +343,7 @@ FEATURES ↓
         font-size: 24px;
     }
 
-.features__service--items {
 
-}
 
     
 /* 
