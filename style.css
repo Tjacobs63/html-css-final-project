@@ -35,7 +35,7 @@ h1 {
 
 h3 {
     padding: 24px;
-    font-size: 12px
+    font-size: 12px;
     text-align: center;
     margin-bottom: 24px;
 
@@ -54,13 +54,14 @@ p{
 
 .input {
     padding: 24px;
+    margin-bottom: 20x;
 }
 
 .img {
     width: 100%;
     height: auto;
     padding: 24px;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 20px;
 }
 
@@ -82,8 +83,8 @@ a:hover {
 
 .row__narrow {
     
-    display: flex
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     width: 100%;
     max-width: 1024px;
@@ -97,8 +98,11 @@ a:hover {
 .container {
     display:flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
     align-items: center;
     padding: 30px;
+    margin: 0 32px;
 }
 
 
@@ -117,6 +121,10 @@ section {
 
 main {
     margin-bottom: 96px;
+}
+
+label{
+    margin-left: 249x;
 }
 
 
@@ -184,6 +192,7 @@ nav {
     background: transparent;
     border: none;
     cursor: pointer;
+     margin-bottom: 20px;
 
 
 
@@ -231,6 +240,8 @@ nav {
     border: none;
 }
 
+
+
 .menu--open .modal {
     visibility: visible;
     opacity: 1;
@@ -259,29 +270,26 @@ HEADER / ABOUT US ↓
 }
 
 .customer__logo {
-    
     width: 100%;
-    height: auto;
-    align-items: center;
-    padding: 20px;
-
+    max-width: 220px;
+    margin: 0 auto;
 }
 
    
 .row__subtitle {
     margin: 0;
-    margin: bottom: 24px;
+    margin-bottom:  24px;
     padding: 20px;
 }
 .design__illustration {
     width: 50px;
     height: 50px;
-    padding: 20px;
+    padding: 0 32px;
     align-items: left;
    
 }
 
-.button {
+button {
     background-color: #6415ff;
     color: white;
     border-radius: 9999px;
@@ -292,7 +300,8 @@ HEADER / ABOUT US ↓
         background-color: #6415ff;
         color: white;
         border-radius: 9999px;
-        padding: 16px;
+        padding: 8px;
+        margin-bottom: 24px;
     }
 
  
@@ -312,9 +321,17 @@ FEATURES ↓
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+
+    .row_description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 24px;
+    }
 
 
+
+    
 /* 
 
 QUALITY WORK ↓
@@ -458,7 +475,7 @@ MOBILE RESPONSIVENESS ↓
 }
 }
 
-@media(max-width: 640px) {
+@media(max-width: (640px) {
     .container {
         padding: 80px 0;
     }
@@ -466,7 +483,9 @@ MOBILE RESPONSIVENESS ↓
         margin: 8px 0;
         padding-bottom: 4px;
     }
+   
     main {
         margin-bottom: 80px;
     }
+
 }
