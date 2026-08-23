@@ -483,6 +483,7 @@ MOBILE RESPONSIVENESS ↓
     .btn__menu {
         display: block;
     }
+    
     header .row {
         flex-direction: column;
         align-items: center;
@@ -491,6 +492,7 @@ MOBILE RESPONSIVENESS ↓
         padding: 80px 32px;
     }
 }
+
 
 @media (max-width: 1024px) {
     .nav__links {
