@@ -74,13 +74,6 @@ a:hover {
 }
 
 
-.row {
-  width: 100%;
-  padding: 8px;
-  align-content: right;
-  flex-wrap: wrap;
-}
-
 
 
 .row__narrow {
@@ -270,9 +263,10 @@ nav {
     
 /* 
 
-HEADER / ABOUT US ↓
+HEADER / ABOUT US 
 
 */
+
 .header__description{
     display: flex;
     flex-direction: column;
@@ -299,6 +293,7 @@ header figure {
     margin-bottom:  24px;
     padding: 20px;
 }
+
 .design__illustration {
   width: 100%;
   max-width: 500px;
@@ -309,9 +304,9 @@ header figure {
 button {
     background-color: #6415ff;
     color: white;
-    border-radius: 9999px;
+    border-radius: 9999;
     padding: 12px 32px;
-    }
+} 
 
     .btn__email {
         background-color: #6415ff;
@@ -341,7 +336,8 @@ FEATURES ↓
     flex-direction: column;
     align-items: center;
 }
-    .row_description {
+   
+.row_description {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -349,34 +345,44 @@ FEATURES ↓
     }
 
     .Features__service {
-    display: grid; /* Use CSS Grid */
-    grid-template-columns: repeat(3, 1fr); /* Create three equal columns */
-    gap: 20px; /* Space between the grid items */
-    padding: 20px; /* Optional: padding around the entire grid */
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    padding: 20px; 
 }
 
 .features__service-item {
-    border: 1px solid #0f0e0e; /* Optional: border around each item */
-    padding: 10px; /* Optional: padding inside each item */
-    text-align: center; /* Center the text inside each item */
-    background-color: #e3dbfd; /* Optional: background color */
+    border: 1px solid #0f0e0e; 
+    padding: 10px; 
+    text-align: center; 
+    background-color: #e3dbfd; 
 }
 
 
   
 /* 
 
-QUALITY WORK ↓
+QUALITY WORK */
 
-*/
-
-
-#quality .row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.container__quality {
+    display: flex; 
+    align-items: center; 
 }
 
+.row {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.quality__work {
+    flex: 1; 
+    margin-right: 20px; 
+}
+
+.quality__image img {
+    max-width: 100%; 
+    height: auto; 
+}
 /* 
 
 STEPS ↓
