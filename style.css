@@ -59,16 +59,15 @@ p{
 }
 
 .img {
-    width: 100%;
-    height: auto;
-    padding: 24px;
-    margin-top: 32px;
-Border: 20px;
+    width: 50%;
+    
+
 }
 
 a {
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
 }
@@ -366,7 +365,9 @@ QUALITY WORK */
 
 .container__quality {
     display: flex; 
-    align-items: center; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
 }
 
 .row {
@@ -376,13 +377,18 @@ QUALITY WORK */
 }
 
 .quality__work {
-    flex: 1; 
-    margin-right: 20px; 
+  flex: 1
 }
 
-.quality__image img {
-    max-width: 100%; 
-    height: auto; 
+.quality__image  {
+  flex: 1;
+   
+    
+}
+
+.quality__img img {
+    max-width: 100%;
+    height: auto;
 }
 /* 
 
