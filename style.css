@@ -363,6 +363,13 @@ FEATURES ↓
 
 QUALITY WORK */
 
+#quality .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
 .container__quality {
     display: flex; 
     align-items: center;
@@ -381,15 +388,18 @@ QUALITY WORK */
 }
 
 .quality__image  {
-  flex: 1;
-   
+    width: 50%;
+    
     
 }
 
-.quality__img img {
+.quality__image img {
+    width: 100%;
     max-width: 100%;
-    height: auto;
+     height: auto;
 }
+
+
 /* 
 
 STEPS ↓
