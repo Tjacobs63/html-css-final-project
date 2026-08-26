@@ -419,34 +419,32 @@ STEPS ↓
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    
+   
 }
 
 .steps__img--wrapper img {
     width: 100%;
     max-width: 100%;
     height: auto;
-
 }
 
 .step {
     display: flex;
-     align-items: flex-start;
+    align-items: flex-start;
     margin-top: 32px;
-  
+    
 }
+
 .step__number {
     font-size: 36px;
     margin-right: 24px;
     color: grey;
-   
-   
+    
 }
 
 .step__title,
 .step__para {
-   
-    text-align: left;
+   text-align: left;
 }
  
 .step__para {
@@ -457,6 +455,7 @@ STEPS ↓
 
 .steps__description {
    display: flex;
+   flex-wrap: wrap; 
    justify-content: center;
    margin: 16px auto;
    
