@@ -518,14 +518,13 @@ PRICING ↓
 
 #pricing .container {
     display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-   justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
 
 }
 
 #pricing .row {
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -534,18 +533,29 @@ PRICING ↓
 
 .plans {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    width: 100%;
+     flex-wrap: wrap;
+
 }
+
  .plan {
-    width: calc(100% / 3);
-    display: flex;
+    width: calc(33.33% - 20px);    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 10px;
+ 
    
  }
+
+ .pricing__btn1 {
+    border-radius: 60px;
+    background-color: rgb(32, 224, 32);
+    color: black;
+ }
+
+
 
 /* 
 
