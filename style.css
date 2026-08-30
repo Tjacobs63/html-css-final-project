@@ -313,6 +313,7 @@ button {
     padding: 12px 32px;
 } 
 
+
     .btn__email {
         background-color: #6415ff;
         color: white;
@@ -322,6 +323,7 @@ button {
         margin-top: 24px;
         align-items: center;
     }
+   
 
  
   
@@ -569,7 +571,7 @@ PRICING ↓
 
 .plan__business {
     width: 100%;
-    background-color: rgb(108, 132, 227);
+    background-color: rgb(108,132,227);
     color: white;
     display: flex;
     flex-direction: column;
@@ -636,6 +638,29 @@ START / CALL TO ACTION ↓
 #start .row {
     position: relative;
     overflow: hidden;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#start .container {
+    width: 100%;
+    width: 100%;
+    background-color: rgb(100,21,255);
+    margin-left: 8px;
+ margin-right: 8px;
+
+}
+.btn__start{
+    background-color: orange;
+    border-radius: 60px;
+    align-items: center;
+}
+
+.btn__contact {
+    background-color: rgb(100,21,255);
+    border-radius: 60px;
+    
 }
 
 
