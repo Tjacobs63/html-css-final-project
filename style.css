@@ -604,6 +604,7 @@ TESTIMONIALS ↓
 #testimonials {
     position: relative;
 }
+
 #testimonials .row {
     display: flex;
     flex-direction: column;
@@ -636,6 +637,10 @@ START / CALL TO ACTION ↓
 
 
 #start .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -644,12 +649,12 @@ START / CALL TO ACTION ↓
 }
 
 #start .container {
-    width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
     width: 100%;
     background-color: rgb(100,21,255);
-    margin-left: 8px;
- margin-right: 8px;
-
+  
 }
 .btn__start{
     background-color: orange;
@@ -669,12 +674,24 @@ START / CALL TO ACTION ↓
     background-color: orange;
 }
 
-
+.color-bar2{
+    width: 100%
+    height: 10px;
+    background-color: orange;
+ 
+}
 
 .info__list {
     display: flex;
-    flex-direction: column;
-    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.info__lists {
+  align-items: center;
+  justify-content:space-between;
+  display: flex;
+    flex-wrap: wrap;
 }  
 
 
