@@ -36,7 +36,7 @@ h1 {
 
 h3 {
     padding: 24px;
-    font-size: 16px;
+    font-size: 24px;
     text-align: center;
     margin-bottom: 24px;
     color: purple;
@@ -419,39 +419,57 @@ STEPS ↓
 #steps .row {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     
 }
 
 #steps .row img {
     margin-right: 0;
 }
+
+#steps img {
+      padding: 16px;
+      align-items: center;
+      margin: 32px auto;
+}
+      
+    #step h3 {
+    margin: 0 auto;
+
+}
+
+
 .container__steps {
     display: flex; 
     align-items: center;
     justify-content: space-between;
-    padding: 32px;
+    padding: 16px;
    
+}
+
+.steps__img--wrapper {
+    width: 50;
+    max-width: 100%;
 }
 
 .steps__img--wrapper img {
     width: 100%;
     max-width: 100%;
     height: auto;
-    margin-right: 24px;
+    margin-top: 0;
 }
 
 .step {
     display: flex;
-    align-items: flex-start;
-    margin-top: 24px;
+    align-items: center;
+    margin-top: 16px;
     
 }
 
 
 .step__number {
     font-size: 36px;
-    margin-right: 24px;
+    margin-right: 16px;
     color: grey;
     
 }
@@ -460,6 +478,10 @@ STEPS ↓
 .step__para {
    text-align: left;
 }
+.step__easy {
+padding:16px;
+}
+
  
 .step__para {
   padding: 0;
@@ -468,12 +490,14 @@ STEPS ↓
 }
 
 .steps__description {
+
    display: flex;
    align-items: flex-start;
    flex-direction: column;
    flex-wrap: wrap; 
    justify-content: center;
    margin: 16px auto;
+   padding: 16px;
    
 }
       
@@ -799,6 +823,26 @@ footer {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+
+}
+.fa-brands fa-square-facebook{
+    padding: 16px;
+    margin: 24px;
+} 
+
+.fa-brands fa-twitter {
+    padding: 16px;
+    margin: 24px;
+}
+
+    .fa-brands fa-instagram {
+        padding: 16px;
+        margin: 24px;
+    } 
+
+    .fa-brands fa-linkedin{
+    padding: 16 px;
+    margin: 24px;
 }
 
 
@@ -822,7 +866,7 @@ MOBILE RESPONSIVENESS ↓
     }
 
     header .row {
-        flex-direction: column;
+            flex-direction: column;
         align-items: center;
     }
     footer {
