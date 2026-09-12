@@ -444,17 +444,15 @@ STEPS ↓
     align-items: center;
     justify-content: space-between;
     padding: 16px;
-   
 }
 
 .steps__img--wrapper {
-    width: 50;
-    max-width: 100%;
+    width: 50%;
+    
 }
 
 .steps__img--wrapper img {
     width: 100%;
-    max-width: 100%;
     height: auto;
     margin-top: 0;
 }
@@ -480,6 +478,7 @@ STEPS ↓
 }
 .step__easy {
 padding:16px;
+margin:0 auto;
 }
 
  
@@ -498,6 +497,7 @@ padding:16px;
    justify-content: center;
    margin: 16px auto;
    padding: 16px;
+
    
 }
       
