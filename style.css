@@ -282,10 +282,10 @@ header figure {
   width: 48%;
 }
 
-.customer__logo, {
+.customer__logo{
     width: 100%;
     max-width: 220px;
-    margin:  auto;
+    margin: auto;
 }
 
 
@@ -845,9 +845,9 @@ footer {
     color: white;
     font-size: 10px;
     font-weight: 900;
-    margin-left: 4px;
+    
   margin-top: 56px;
-  padding-top: 16px;
+  padding-top: 24px;
     
   
 }
@@ -859,6 +859,7 @@ footer {
     margin-left: 300px;
    margin-top: 4px;
    margin-bottom: 48px;
+   padding-bottom: 24px;
 
   
 
