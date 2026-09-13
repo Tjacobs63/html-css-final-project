@@ -170,7 +170,8 @@ nav {
 
 .nav__logo h3 {
     margin: 0;
-    max-width: 500px;   font-size: 24px;
+    max-width: 500px;   
+    font-size: 24px;
     font-weight: 900;
 }
 
@@ -447,7 +448,7 @@ STEPS ↓
 }
 
 .steps__img--wrapper {
-    width: 50%;
+    width: 55%;
     
 }
 
@@ -476,8 +477,9 @@ STEPS ↓
 .step__para {
    text-align: left;
 }
+
 .step__easy {
-padding:16px;
+padding:8px;
 margin:0 auto;
 }
 
@@ -489,7 +491,7 @@ margin:0 auto;
 }
 
 .steps__description {
-
+   width: 45%;
    display: flex;
    align-items: flex-start;
    flex-direction: column;
@@ -600,6 +602,10 @@ PRICING ↓
     background-color: rgb(32, 224, 32);
     color: white;
  }
+  
+ .pricing__btn1:hover {
+    transform: scale(1.1);
+ }
 
 .plan__business {
     width: 100%;
@@ -621,12 +627,19 @@ PRICING ↓
     color: black;
  }
 
+ .pricing__btn2:hover {
+    transform: scale(1.1);
+ }
+
 
  .pricing__btn3 {
     border-radius: 60px;
     background-color: orange;
  }
 
+ .pricing__btn3:hover {
+    transform: scale(1.1);
+ }
 
 /* 
 
@@ -705,10 +718,18 @@ align-items: center;
     align-items: center;
 }
 
+.btn__start:hover {
+    background-color: rgb(100,21,255);
+}
+
 .btn__contact {
     background-color: rgb(100,21,255);
     border-radius: 60px;
     
+}
+
+.btn__contact:hover {
+    background-color: orange;
 }
 
 .color-bar1{
@@ -765,25 +786,33 @@ FOOTER ↓
 
 
 #footer .row {
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
     width: 100%;
     max-width: 1200px;
-    padding: 0 32px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin: 0 auto;
+    padding: 0 32px;
 }
 
 
 #footer .container {
-  display: flex;
-  flex-direction: column;   
-  align-items: center;
-      width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+    width: 100%;
     background-color: rgb(100,21,255);
 }
 
-
+.footer__img{
+   
+    height: 40px;
+    width: 40ps;
+    margin-right: 16px;
+}
 
 footer {
     width: 100%;
@@ -801,48 +830,66 @@ footer {
 }
 
 
+
 .footer__logo {
     display: flex;
     align-items: center;
-     justify-content: flex-start;    padding: 16px;    
-      flex-direction: row;
+     justify-content: left;    
+     padding: 16px;    
+    flex-direction: row;
    
      
 }
 
 .footer__logo-text {
     color: white;
-    font-size: 24px;
+    font-size: 10px;
     font-weight: 900;
-    margin-left: 16px;
+    margin-left: 4px;
+  margin-top: 56px;
+  padding-top: 16px;
     
   
+}
+
+.footer__copyright {
+    color: white;
+    font-size: 8px;
+    text-align: center;
+    margin-left: 300px;
+   margin-top: 4px;
+   margin-bottom: 48px;
+
+  
+
 }
 
 .footer__socials {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
+    width: 25%;
+    margin-right: 24px;
+  margin-top: 24px;
 
 }
 .fa-brands fa-square-facebook{
-    padding: 16px;
+    padding: 8px;
     margin: 24px;
+    font-size: 24px;
 } 
 
-.fa-brands fa-twitter {
-    padding: 16px;
-    margin: 24px;
-}
 
     .fa-brands fa-instagram {
-        padding: 16px;
+        padding: 8px;
         margin: 24px;
+        font-size: 24px;
     } 
 
     .fa-brands fa-linkedin{
     padding: 16 px;
     margin: 24px;
+    font-size: 24px;
 }
 
 
