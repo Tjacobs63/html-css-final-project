@@ -271,8 +271,9 @@ HEADER / ABOUT US
 .header {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .header__description{
@@ -331,8 +332,8 @@ P .logo__title{
   max-width: 450px;
   height: auto;
   padding: 0;
-  height: 40px;
-  width: 40px;
+  height: 32px;
+  width: 32px;
 }
 
 input {
@@ -341,7 +342,8 @@ input {
     justify-content: center;
     align-items: center;
     margin: 4px 4px;
-    border-radius: 24px;
+    border: black solid 2px;
+    border-radius: 8px;
     padding: 16px;
 }
 
@@ -350,7 +352,10 @@ label {
     padding: 4px;
 }
    
-
+header .img {
+    height:  24px;
+    width: 100%;
+}
 
 .label__email-wrapper {
     border:#0f0e0e solid 2px;
@@ -363,11 +368,14 @@ label {
     justify-content: space-between;
     align-items: center;
 }
+
+
 button {
     background-color: #6415ff;
     color: white;
     border-radius: 9999;
     padding: 12px 32px;
+    margin-right: 16px;
 } 
 
 
