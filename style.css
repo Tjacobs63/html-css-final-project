@@ -57,7 +57,8 @@ p{
 .input {
     padding: 24px;
     margin-bottom: 20px;
-}
+    border-radius: 24px; }
+
 
 .img {
     width: 50%;
@@ -268,6 +269,7 @@ HEADER / ABOUT US
 
 */
 
+
 .header__description{
     display: flex;
     flex-direction: column;
@@ -285,13 +287,31 @@ header figure {
 .customer__logo{
     width: 100%;
     max-width: 220px;
-    margin: auto;
+    margin: 0 auto;
 }
 
+P .logo__title{
+    color: #a0aec0;
+    font-size: 12px;
+    font-weight: 700;
+}
 
 .customer__logo-strip {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 32px;
+    padding: 16px;
     margin: 0 auto;
-    
+      
+}
+.customer__logo{
+    display: flex;
+    flex-direction: column;
+    color: #a0aec0;
+    font-size: 48px;
+    font-weight: 790;
+
 }
 
    
@@ -303,11 +323,41 @@ header figure {
 
 .design__illustration {
   width: 100%;
-  max-width: 500px;
+  max-width: 450px;
   height: auto;
   padding: 0;
+  height: 40px;
+  width: 40px;
 }
 
+input {
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 4px 4px;
+    border-radius: 24px;
+    padding: 16px;
+}
+
+label {
+    margin: 0 auto;
+    padding: 4px;
+}
+   
+
+
+.label__email-wrapper {
+    border:#0f0e0e solid 2px;
+    border-radius: 9999px;
+    width: 100%;
+    max-width: 448px;
+    height: 60px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 button {
     background-color: #6415ff;
     color: white;
@@ -324,7 +374,7 @@ button {
         margin-bottom: 24px;
         margin-top: 24px;
         align-items: center;
-    }
+      
    
 
  
