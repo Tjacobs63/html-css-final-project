@@ -276,49 +276,62 @@ HEADER / ABOUT US
     justify-content: space-between;
 }
 
-.header__description{
+header .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 64px;
+}
+
+
+header .container {
+    justify-content: space-between;
+}
+
+
+.header__description {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
+    margin: 0 auto;
 
 }
 
-.header__description,
-header figure {
-  width: 48%;
-}
 
-.customer__logo{
+
+
+
+.customer__logo {
     width: 100%;
     max-width: 220px;
     margin: 0 auto;
+    color: #a0aec0;
+    font-size: 48px;
+    font-weight: 790;
+    padding: 64px;
+margin-top: 80px;
+
 }
 
-P .logo__title{
+P .logo__title {
     color: #a0aec0;
     font-size: 12px;
     font-weight: 700;
+
+
 }
 
 .customer__logo-strip {
     display:flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    margin-top: 32px;
+     margin-top: 64px;
     padding: 16px;
     margin: 0 auto;
       
 }
-.customer__logo{
-    display: flex;
-    flex-direction: column;
-    color: #a0aec0;
-    font-size: 48px;
-    font-weight: 790;
 
-}
 
    
 .row__subtitle {
@@ -330,10 +343,11 @@ P .logo__title{
 .design__illustration {
   width: 100%;
   max-width: 450px;
-  height: auto;
-  padding: 0;
-  height: 32px;
-  width: 32px;
+  padding: 80px;
+  margin-left: 32px;
+  justify-content: space-between;
+  
+ 
 }
 
 input {
@@ -374,7 +388,7 @@ button {
     background-color: #6415ff;
     color: white;
     border-radius: 9999;
-    padding: 12px 32px;
+    padding: 16px;
     margin-right: 16px;
 } 
 
@@ -388,7 +402,7 @@ button {
         margin-top: 24px;
         align-items: center;
       
-   
+    }
 
  
   
