@@ -268,6 +268,8 @@ nav {
 HEADER / ABOUT US 
 
 */
+
+
 .header {
     display: flex;
     flex-direction: column;
@@ -280,27 +282,28 @@ header .row {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 64px;
+
 }
 
 
 header .container {
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
+
 }
 
 
 .header__description {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    padding: 20px;
-    margin: 0 auto;
+    height: 500px;
+    width: 550px;
+    padding: 24px;
 
 }
-
-
-
 
 
 .customer__logo {
@@ -310,8 +313,7 @@ header .container {
     color: #a0aec0;
     font-size: 48px;
     font-weight: 790;
-    padding: 64px;
-margin-top: 80px;
+   
 
 }
 
@@ -319,19 +321,20 @@ P .logo__title {
     color: #a0aec0;
     font-size: 12px;
     font-weight: 700;
-    
+   margin-bottom: 80px;
+   align-items: flex-start;
 
 
 }
-
-.customer__logo-strip {
-    display:flex;
-    flex-direction: column;
-     margin-top: 64px;
+.logo__img--strip {
     padding: 16px;
-    margin: 0 auto;
-      
+    align-items: flex-start;
+    opacity: 0.5;
+    margin: 0 0 16px 32px;
+    width: 75%;
 }
+
+    
 
 
    
@@ -343,15 +346,15 @@ P .logo__title {
 
 .design__illustration {
   width: 100%;
-  max-width: 450px;
-  padding: 4px;
-  margin-left: 16px;
-  margin-bottom: 64px;
-  height: auto;
-
+   max-width: 700px;
+   height: auto;
+  margin: 0 16px 80px 24px;
+  
+  
+}
   
  
-}
+
 
 input {
     width: 100%;
@@ -378,7 +381,7 @@ header .img {
     border:#0f0e0e solid 2px;
     border-radius: 9999px;
     width: 100%;
-    max-width: 448px;   
+    max-width: 500px;   
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -440,10 +443,10 @@ FEATURES ↓
 }
 
 .features__service-item {
-    border: 1px solid #0f0e0e; 
+    
     padding: 10px; 
     text-align: center; 
-    background-color: #e3dbfd; 
+    
 }
 
 
@@ -605,15 +608,20 @@ VALUES ↓
 }
 
 .values__title {
-   margin: 0 24px 32px 0;
+   font-size: 16px;
+    color: #6415ff;
+    letter-spacing: 1.6px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .values__principles {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
+   font-size: 48px;
+    font-weight: 900;
+    color: rgb(36, 62, 99);
+    line-height: 1.5;
+    margin: 16px 0;
+    letter-spacing: 0.025em;
 
 }
 
