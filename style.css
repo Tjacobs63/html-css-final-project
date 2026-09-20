@@ -169,7 +169,7 @@ nav {
     height: 40px;
 }
 
-.nav__logo h3 {
+.nav__logo h4 {
     margin: 0;
     max-width: 500px;   
     font-size: 24px;
@@ -319,6 +319,7 @@ P .logo__title {
     color: #a0aec0;
     font-size: 12px;
     font-weight: 700;
+    
 
 
 }
@@ -343,9 +344,11 @@ P .logo__title {
 .design__illustration {
   width: 100%;
   max-width: 450px;
-  padding: 80px;
-  margin-left: 32px;
-  justify-content: space-between;
+  padding: 4px;
+  margin-left: 16px;
+  margin-bottom: 64px;
+  height: auto;
+
   
  
 }
@@ -375,8 +378,7 @@ header .img {
     border:#0f0e0e solid 2px;
     border-radius: 9999px;
     width: 100%;
-    max-width: 448px;
-    height: 60px;
+    max-width: 448px;   
     position: relative;
     display: flex;
     justify-content: space-between;
