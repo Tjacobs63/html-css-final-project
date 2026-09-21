@@ -594,6 +594,8 @@ VALUES ↓
 
 */
 
+
+
 #values .row {
     display: flex;
     justify-content: space-between;
@@ -607,6 +609,15 @@ VALUES ↓
     margin-right: 24px;
 }
 
+#values p {
+    align-items: center;
+    justify-content: center;
+}
+
+.values__name--list {
+    justify-content: center;
+    align-items: center;
+}
 .values__title {
    font-size: 16px;
     color: #6415ff;
@@ -625,6 +636,21 @@ VALUES ↓
 
 }
 
+
+
+.values__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.value__btn {
+    display: flex;
+    border-radius: 9999px;
+   align-items: center;
+    justify-content: center;
+}
 .values__img--wrapper img {
    width: 100%;
    max-width: 100%;
