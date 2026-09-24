@@ -934,22 +934,25 @@ align-items: center;
 
 .btn__start{
     background-color: orange;
+   
     border-radius: 60px;
     align-items: center;
 }
 
 .btn__start:hover {
-    background-color: rgb(100,21,255);
+   rgb(100,21,255);
+     transform: scale(1.1);
 }
 
 .btn__contact {
-    background-color: rgb(100,21,255);
+   background-color: rgb(100,21,255);
     border-radius: 60px;
+     
     
 }
 
 .btn__contact:hover {
-    background-color: orange;
+    transform: scale(1.1);
 }
 
 .color-bar1{
