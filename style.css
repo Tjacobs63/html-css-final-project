@@ -39,7 +39,7 @@ h3 {
     font-size: 24px;
     text-align: center;
     margin-bottom: 24px;
-    color: purple;
+     color: #6415ff;
 
      
 }
@@ -665,9 +665,10 @@ VALUES ↓
 
 .values__list {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+   
 }
 
 .value__btn {
