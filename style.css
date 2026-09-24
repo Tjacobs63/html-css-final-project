@@ -310,7 +310,7 @@ header .container {
 .customer__logo {
     width: 100%;
     max-width: 220px;
-    margin: 0 auto;
+  
     color: #a0aec0;
     font-size: 48px;
     font-weight: 790;
@@ -325,13 +325,12 @@ P .logo__title {
    margin-bottom: 80px;
    align-items: flex-start;
 
-
 }
 .logo__img--strip {
     padding: 16px;
     align-items: flex-start;
     opacity: 0.5;
-    margin: 0 0 16px 32px;
+    margin: 0 0 16px 0px;
     width: 75%;
 }
 
@@ -386,7 +385,7 @@ header .img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
+
 }
 
 
@@ -399,6 +398,7 @@ button {
 } 
 
 
+
     .btn__email {
         background-color: #6415ff;
         color: white;
@@ -407,8 +407,13 @@ button {
         margin-bottom: 24px;
         margin-top: 24px;
         align-items: center;
-  
+       
       
+    }
+
+    .btn__email:hover {
+       transform: scale(1.1);
+
     }
 
  
@@ -750,9 +755,9 @@ PRICING ↓
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 16px;
+    text-align: center;justify-content: center;
+  
+  
 }
 
 .plan__enterprise {
@@ -765,7 +770,7 @@ PRICING ↓
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 16px;
+  
 }
 
 
@@ -784,6 +789,7 @@ PRICING ↓
     justify-content: center;
     margin: 10px;
     font-size: 14px;
+    padding: 32px;
     
    
  }
@@ -797,6 +803,10 @@ PRICING ↓
     background-color: rgb(32, 224, 32);
     color: white;
    
+ }
+
+ .pricing__btn1, .pricing__btn2, .pricing__btn3 {
+    width: 160px;
  }
   
  .pricing__btn1:hover {
@@ -813,7 +823,7 @@ PRICING ↓
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 16px;
+
 }
    
  
@@ -986,7 +996,7 @@ FOOTER ↓
 */
 
 #footer{
-   
+   display: flex;
     flex-direction: column;
    
 
@@ -1038,6 +1048,7 @@ footer {
     position: relative;
     overflow: hidden;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
@@ -1057,8 +1068,8 @@ footer {
     color: white;
     font-size: 16px;
     font-weight: 900;
-      margin-top: 48px;
-  padding-top: 24px;
+      margin-top: 8px;
+  padding-top: 8px;
     
   
 }
@@ -1067,9 +1078,8 @@ footer {
     color: white;
     font-size: 8px;
     text-align: center;
-   
-   margin-top: 4px;
-   margin-bottom: 48px;
+    margin-top: 8px;
+   margin-bottom: 16px;
    padding-bottom: 24px;
 
   
@@ -1080,9 +1090,10 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 16px;
     width: 25%;
     margin-right: 24px;
-  margin-top: 24px;
+  margin-top: 8px;
 
 }
 .fa-brands fa-square-facebook{
