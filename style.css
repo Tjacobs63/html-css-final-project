@@ -606,8 +606,8 @@ VALUES ↓
 .values__description {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 75%;
+    width: 50%;
+   
 }
 
 #values img {
@@ -685,7 +685,7 @@ VALUES ↓
  }
 
 .values__img--wrapper img {
-   width: 100%;
+   width: 50%;
    max-width: 100%;
    height: auto;
    margin: 16px 16px 32px 16px;
