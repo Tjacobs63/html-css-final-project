@@ -943,22 +943,38 @@ TESTIMONIALS ↓
 
 #testimonials .container {
     padding: 40px 20px;
-    text-align: center;
+    text-align: left;
 }
 
 #testimonials .row {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+     align-items: flex-start;
     margin-bottom: 30px;
+  
 }
+
+.testimonials__content {
+   Display: flex:
+flex-direction: column: 
+  git add padding-left: 20px;
+}
+
 
 .test__customers {
 display: grid;
 grid-template-columns: repeat(3, 1fr);
 gap: 20px;
+width: 100%;
 
 
+
+}
+
+.testimonials__img {
+    width:50%;
+    height: auto;
+    margin-top: 0;
+    border-radius: 8px;
 }
 
 .test__test{
@@ -967,7 +983,7 @@ gap: 20px;
     margin-bottom: 8px;
     padding: 10pz;
     text-align: center;
-    color: white;
+    color: black;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     border-radius: 8px;
     
