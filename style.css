@@ -918,17 +918,23 @@ TESTIMONIALS ↓
     position: relative;
 }
 
+#testimonials .container {
+    padding: 40px 20px;
+    text-align: center;
+}
+
 #testimonials .row {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .test__customers {
 display: grid;
 grid-template-columns: repeat(3, 1fr);
 gap: 20px;
-padding: 20px;
+
 
 }
 
@@ -939,6 +945,8 @@ padding: 20px;
     padding: 10pz;
     text-align: center;
     color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
     
 
 }
@@ -1189,6 +1197,68 @@ MOBILE RESPONSIVENESS ↓
     header .row {
         align-items: flex-end;
     }
+
+    .container__steps {
+        padding: 40px 20px;
+    }
+
+    #steps .row {
+    display: flex; /* Use flexbox to align items side by side */
+    justify-content: space-between; /* Space out items */
+    align-items: flex-start; /* Align items to the top */
+}
+
+.steps__img--wrapper {
+    flex: 1; /* Allow this to take up space */
+    margin-right: 20px; /* Space between image and text */
+}
+
+.steps__description {
+    flex: 2; /* Allow this to take more space */
+}
+
+.step {
+    margin-bottom: 20px; /* Space between steps */
+}
+
+.step__number {
+    font-size: 24px; /* Adjust font size */
+    font-weight: bold;
+}
+
+.step__title {
+    font-size: 18px; /* Adjust title size */
+}
+
+#pricing .container {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#pricing .row {
+    margin-bottom: 30px;
+}
+
+#pricing .plans {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Space out plans evenly */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+#pricing .plan {
+    background-color: white;
+    width: 280px; /* Fixed width for larger screens */
+    margin: 20px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+#pricing .plan:hover {
+    transform: translateY(-4px); /* Simple hover effect */
+}
+
 }
 
 
@@ -1204,9 +1274,11 @@ MOBILE RESPONSIVENESS ↓
     }
 
     header .row {
-            flex-direction: column;
+         flex-direction: column;
         align-items: center;
     }
+
+
     footer {
         padding: 80px 32px;
     }
@@ -1288,7 +1360,41 @@ MOBILE RESPONSIVENESS ↓
         font-size: 16px;
         padding: 0;
     }
-}
+  #steps .row {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center align items */
+    }
+
+    .steps__img--wrapper {
+        margin: 0 0 20px 0; /* Remove margin on the sides, add bottom margin */
+        max-width: 100%; /* Ensure the image is responsive */
+    }
+
+    .steps__description {
+        text-align: center; /* Center text for better readability */
+    }
+
+     .step {
+        width: 100%; /* Make steps full width */
+        text-align: left; /* Align text to the left */
+    }
+
+#pricing .plans {
+        flex-direction: column; /* Stack the plans vertically */
+        align-items: center; /* Center align plans */
+    }
+
+    #pricing .plan {
+        width: 90%; /* Make plans take up 90% width of the container */
+        margin: 10px 0; /* Adjust margin for better spacing */
+    }
+    
+     #testimonials .test__customers {
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+    }
+
+} 
+
 
 
 
@@ -1308,17 +1414,29 @@ MOBILE RESPONSIVENESS ↓
 }
 
 @media (max-width: 480px) {
-    .container__quality {
-        padding: 10px;
+    #quality .container__quality {
+         font-size: 10px;
           }
-         #quality, h1 {
+
+          #quality h1 {
             font-size: 20px;
           }
           
          #quality, p {
             font-size: 14px;
           }
+
+ #pricing .plan {
+        width: 100%; /* Full width on very small screens */
+    }
+
+       #testimonials .test__customers {
+        grid-template-columns: 1fr; /* Single column */
+    }
+
         }
+
+
 
 #features .container {
     display: block;
