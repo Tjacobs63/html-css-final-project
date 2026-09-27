@@ -12,45 +12,46 @@
 </head>
 
 <body>
-    <section id="landing">
-      <nav>
-    <div class="row nav__row">
-        <div class="nav__logo">
-            <img class="nav__logo--img" src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="Treact logo">
-            <h4>Treact</h4>
+<section id="landing">
+    <nav>
+        <div class="row nav__row">
+            <div class="nav__logo">
+                <img class="nav__logo--img" src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="Treact logo">
+                <h4>Treact</h4>
+            </div>
+
+            <div class="nav__links">
+                <a href="#features" class="nav__link">About</a>
+                <a href="#features" class="nav__link">Blog</a>
+                <a href="#pricing" class="nav__link">Pricing</a>
+                <a href="#start" class="nav__link">Contact</a>
+                <a href="#" class="nav__link">Login</a>
+                <a href="#" class="nav__link nav__link--sign-up">Sign up</a>
+            </div>
+
+            <div class="menu-icon" id="menu-icon" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></div> <!-- Hamburger Icon -->
         </div>
 
-        <div class="nav__links">
-            <a href="#features" class="nav__link">About</a>
-            <a href="#pricing" class="nav__link">Pricing</a>
-            <a href="#start" class="nav__link">Contact</a>
-            <a href="#" class="nav__link">Login</a>
-            <a href="#" class="nav__link nav__link--sign-up">Sign up</a>
-        </div>
-       
-        <div class="modal">
+        <div class="modal" id="menu-modal">
             <button class="btn__menu btn__menu--close" onclick="closeMenu()">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="light___StyledCloseIcon-lj69nl-14 fASujC">
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <line x1="18" y1="6" x2="6" y2="18"></line>
                     <line x1="6" y1="6" x2="18" y2="18"></line>
                 </svg>
-               
-            <div class="modal__links">
-                <a class="modal__link">About</a>
-                <a class="modal__link">Blog</a>
-                <a class="modal__link">Pricing</a>
-                <a class="modal__link">Contact Us</a>
-                <a class="modal__link">Login</a>
-                <a class="modal__link modal__link--primary">Sign-Up</a></div>
             </button>
-                    
-                     </div>
-                      
-                    </nav>
-      
-                </section>          
+            <div class="modal__links">
+                <a class="modal__link" href="#features">About</a>
+                <a class="modal__link" href="#blog">Blog</a>
+                <a class="modal__link" href="#pricing">Pricing</a>
+                <a class="modal__link" href="#contact">Contact Us</a>
+                <a class="modal__link" href="#login">Login</a>
+                <a class="modal__link modal__link--primary" href="#signup">Sign-Up</a>
+            </div>
+        </div>
+    </nav>
+</section>
+       
        <br>
        <br>
        <br>
