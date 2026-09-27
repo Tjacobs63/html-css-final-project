@@ -435,6 +435,13 @@ button {
 
     }
 
+    .customer__logo {
+        align-self: flex-start;
+    }
+    
+    .logo__img--strip {
+        align-self: flex-start;
+    }
  
   
 /* 
