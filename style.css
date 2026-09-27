@@ -1271,13 +1271,13 @@ MOBILE RESPONSIVENESS ↓
 }
 
 .quality__image {
-    margin-top: 20px;
+    margin-top: 10px;
 }
-h1{
+#quality, h1{
     font-size: 24px;
 }
 
-p {
+#quality, p {
     font-size: 16px;
 }
 
@@ -1302,11 +1302,11 @@ p {
     .container__quality {
         padding: 10px;
           }
-          h1 {
+         #quality, h1 {
             font-size: 20px;
           }
           
-          p {
+         #quality, p {
             font-size: 14px;
           }
 
