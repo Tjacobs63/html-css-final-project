@@ -660,17 +660,23 @@ VALUES ↓
 
 */
 
-
+#values .container {
+    padding: 40px 20px;
+    text-align: center;
+}
 
 #values .row {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     
   
   
 }
 .values__description {
     display: flex;
+    flex:1;
     flex-direction: column;
     width: 50%;
    
@@ -704,7 +710,12 @@ VALUES ↓
 
 .value {
     display: flex;
+    flex: 1 1 30%;
+    margin: 10px;
+    background-color: #f9f9f9;
     flex-direction: column;
+    padding: 20px;
+    border-radius: 8px;
 }
 
 .fa-solid fa-hand-holding-dollar {
@@ -736,13 +747,16 @@ VALUES ↓
 
 }
 
+.values__title, .values__principles {
+    margin: 10px 0;
+}
+
 
 
 .values__list {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
    
 }
 
@@ -768,6 +782,7 @@ padding: 12px 24px;
    height: 600px;
    margin: 152px 3px 0 3px;
    padding: 8px;
+   flex: 1;
 }
 
 .values__img--wrapper figure {
@@ -1393,6 +1408,29 @@ MOBILE RESPONSIVENESS ↓
         grid-template-columns: repeat(2, 1fr); /* Two columns */
     }
 
+   #values .row {
+        flex-direction: column; /* Stack elements on smaller screens */
+        text-align: center; /* Center text for readability */
+    }
+
+    .values__list {
+        flex-direction: column; /* Stack value boxes vertically */
+    }
+
+    .value {
+        flex: 1 1 100%; /* Allow each value box to take full width */
+        margin: 10px 0; /* Margin between stacked value boxes */
+    }
+
+    .values__title {
+        font-size: 1.5em; /* Increase title size */
+    }
+
+    .values__principles {
+        font-size: 1.8em; /* Increase principles size */
+    }
+
+
 } 
 
 
@@ -1432,6 +1470,19 @@ MOBILE RESPONSIVENESS ↓
 
        #testimonials .test__customers {
         grid-template-columns: 1fr; /* Single column */
+    }
+
+    .values__title {
+        font-size: 1.2em; /* Further adjust title size */
+    }
+
+    .values__principles {
+        font-size: 1.5em; /* Further adjust principles size */
+    }
+
+    .value__btn {
+        padding: 10px 20px; /* Adjust button padding */
+        font-size: 0.9em; /* Adjust button font size */
     }
 
         }
