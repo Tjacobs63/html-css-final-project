@@ -959,11 +959,15 @@ TESTIMONIALS ↓
    Display: flex;
 flex-direction: column;
   width: 55%;
-  margin: bottom: 16px;
+  margin-bottom: 16px;
+  padding: 20px;
    align-items: center;
   justify-content: center;
 }
 
+#testimonials h3, h1{
+    padding-bottom: 0;
+}
 .testimonial__buttons{
     display: flex;
     align-items: center;
@@ -975,11 +979,15 @@ flex-direction: column;
     color: #7c8ba1;
     line-height: 1.625;
 }
+figure{
+    flex:1;
+    margin-right: 20px;
+}
 
 figure .testimonials__img {
-    width:75%;
+    width:100%;
     height: auto;
-    margin-top: 32px;
+    margin: 56px;
     border-radius: 8px;
     justify-content: space-between;
 }
@@ -997,6 +1005,22 @@ figure .testimonials__img {
     
 
 }
+
+.testimonial__buttons {
+    display: flex;
+    gap: 12px;
+    justify-content: right;
+}
+ .testimonial__button {
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: #edf2f7;
+    color: #6415ff;: 
+ }
+
+
 /*
 
 START / CALL TO ACTION ↓
@@ -1472,8 +1496,28 @@ MOBILE RESPONSIVENESS ↓
         font-size: 1.8em; /* Increase principles size */
     }
 
+    #testimonials .row {
+        flex-direction: column;
+        align-items: center;
 
-} 
+    }
+.testimonials__content {
+    width: 100%;
+    margin: 0;
+
+}
+figure {
+    margin-right: 0 auto;
+    margin-bottom: 20px;
+}
+
+
+.test__customers {
+display: grid;
+gird-template-columns: repeat(1, 1fr);
+gap: 20px;
+}
+}
 
 
 
