@@ -968,11 +968,14 @@ flex-direction: column;
 #testimonials h3, h1{
     padding-bottom: 0;
 }
+
 .testimonial__buttons{
     display: flex;
     align-items: center;
 }
-
+ .testimonial__button:hover{
+    transform: scale(1.1);
+ }
 
 #testimonials p {
     font-weight: 500;
@@ -1020,6 +1023,10 @@ figure .testimonials__img {
     color: #6415ff;: 
  }
 
+.testimonial__button:hover {
+
+}
+
 
 /*
 
@@ -1031,21 +1038,22 @@ START / CALL TO ACTION ↓
 
 #start .row {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;;
     position: relative;
     overflow: hidden;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 32px;
+    padding: 80px 48px;
 
 }
 
 #start .container {
 display: flex;
 flex-direction: column;
+flex-wrap: wrap;
 align-items: center;
 margin-left: 112px;
     width: 100%;
@@ -1062,13 +1070,18 @@ margin-left: 112px;
         justify-content: left;
          align-items: center;
          padding-bottom: 16px;
+         width: 55%;
+         font-size: 30px;
+         text-align: left;
     }
 
+   
 .btn__start{
     background-color: orange;
        border-radius: 60px;
     align-items: center;
     justify-content: right;
+    padding-bottom: 16px;
 }
 
 .btn__start:hover {
@@ -1087,6 +1100,10 @@ margin-left: 112px;
     transform: scale(1.1);
 }
 
+.start__buttons{
+    display: flex;
+    gap: 24px;
+}
 
 
 
@@ -1524,16 +1541,21 @@ gap: 20px;
 
    #start .row {
         flex-direction: column;
-        padding: 16px;
+        text-align: center;
+        gap: 32px;
     }
 .start__now {
-    font-size: 24px;
+    width: 100%;
+     font-size: 26px;
+     text-align: center;
+}
+.start__buttons {
+    justify-content: center;
 }
 
-.btn_-start, .btn_contact {
-    width: 100%;
-    margin: 10px 0;
-}
+
+
+
 }
 
 @media(min-width: 600px) {
