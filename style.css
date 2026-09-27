@@ -242,7 +242,7 @@ nav {
 
 
 .modal__link {
-    color: white;
+    color: #242424;
     font-size: 24px;
     margin: 10px 0;
 }
@@ -469,10 +469,48 @@ FEATURES ↓
 }
 
 .features__service-item {
-    
-    padding: 10px; 
-    text-align: center; 
-    
+    display: grid;
+    grid-template-columns: 66px minmax(0, 1fr);
+    column-gap: 16px;
+    row-gap: 16px;
+    padding: 32px 24px;
+    text-align: left;
+    align-content: start;
+    justify-content: center;
+}
+
+.features__service-item > i {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 66px;
+    height: 66px;
+    border: 1px solid #e5e7eb;
+    border-radius: 50%;
+    font-size: 24px;
+    color: #6415ff;
+}
+
+.features__service-item > h4 {
+    grid-column: 2;
+    margin: 0;
+    align-self: center;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #243e63;
+}
+
+
+.features__service-item > p {
+    grid-column: 2;
+    margin: 0;
+    font-size: 16px;
+    line-height: 2;
+    font-weight: 500;
+    color: #7c8ba1;
 }
 
 
@@ -557,6 +595,7 @@ STEPS ↓
 
 .steps__img--wrapper {
     width: 55%;
+
     
 }
 
@@ -1190,7 +1229,18 @@ MOBILE RESPONSIVENESS ↓
     footer {
         padding: 80px 32px;
     }
+
+    .features__service {
+        grid-template-columns: repeat(2, minmax(0,1fr));
+
+    }
+
+    .features__service-item {
+        padding: 32px 8px;
+    }
 }
+
+
 
 @media (max-width: 768px) {
     .nav__links {
@@ -1207,7 +1257,15 @@ MOBILE RESPONSIVENESS ↓
      .modal .open {
         visibility: visible;
      }
+.features__service {
+    grid-template-columns: minmax(0, 384px);
+    justify-content: center;
 }
+
+}
+
+
+
 
 @media(max-width: 640px) {
     .container {
