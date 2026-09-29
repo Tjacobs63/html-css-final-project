@@ -1267,12 +1267,16 @@ footer {
     width: 25%;
     margin-right: 24px;
   margin-top: 8px;
+  
+
 
 }
 .fa-brands fa-square-facebook{
     padding: 8px;
     margin: 24px;
     font-size: 24px;
+
+
 } 
 
 
@@ -1414,6 +1418,8 @@ MOBILE RESPONSIVENESS ↓
     .features__service-item {
         padding: 32px 8px;
     }
+
+ 
 }
 
 @media (min-width: 900px) {
@@ -1573,6 +1579,12 @@ gap: 20px;
     justify-content: center;
 }
 
+  .btn__start, .btn__contact {
+        width: auto; /* Reset button width */
+        margin: 0 10px; /* Horizontal margin */
+        flex-direction: row;
+    }
+}
 
 
 
@@ -1591,6 +1603,7 @@ gap: 20px;
     .btn__start, .btn__contact {
         width: auto; /* Reset button width */
         margin: 0 10px; /* Horizontal margin */
+        flex-direction: row;
     }
 }
 
@@ -1644,6 +1657,14 @@ gap: 20px;
     .value__btn {
         padding: 10px 20px; /* Adjust button padding */
         font-size: 0.9em; /* Adjust button font size */
+    }
+
+
+      .btn__start, .btn__contact {
+        width: auto; /* Reset button width */
+        margin: 0 4px; /* Horizontal margin */
+        flex-direction: column;
+
     }
 
  
