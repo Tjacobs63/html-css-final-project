@@ -1040,7 +1040,7 @@ START / CALL TO ACTION ↓
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;;
+    justify-content: space-even;;
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -1055,13 +1055,22 @@ display: flex;
 flex-direction: column;
 flex-wrap: wrap;
 align-items: center;
-margin-left: 112px;
-    width: 100%;
+justify-content: center;
+    width: 90%;
     max-width: 1200px;
     background-color: rgb(100,21,255);
     
 }
 
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    color: #243e63;
+}
     
  .start__now {
         color: white;
