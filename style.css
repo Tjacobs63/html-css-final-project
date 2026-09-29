@@ -1271,6 +1271,21 @@ footer {
 
 
 }
+
+.social__link {
+    background-color: white;
+    border-radius: 50%;
+    padding: 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    transition: all 300ms ease;
+}
+
+
+
 .fa-brands fa-square-facebook{
     padding: 8px;
     margin: 24px;
@@ -1287,7 +1302,7 @@ footer {
     } 
 
     .fa-brands fa-linkedin{
-    padding: 16 px;
+    padding: 8px;
     margin: 24px;
     font-size: 24px;
 }
