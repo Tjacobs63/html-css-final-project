@@ -309,6 +309,7 @@ HEADER / ABOUT US
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    text-align: left;
     box-sizing: border-box;
    
     height: 500px;
@@ -317,6 +318,11 @@ HEADER / ABOUT US
 
 }
 
+.header__description h1, .header__description p {
+    text-align: left;
+    justify-content: flex-start;
+    padding: 4px;
+}
 
 .customer__logo {
     display: flex;
@@ -330,6 +336,7 @@ HEADER / ABOUT US
    
 
 }
+
 
  .logo__title {
     color: #a0aec0;
@@ -348,21 +355,17 @@ HEADER / ABOUT US
     
 }
 
-   
-.row__subtitle p{
-    padding: 10;
-   
-   
+
 
 .design__illustration {
   width: 100%;
-   max-width: 300px;
+   max-width: 650px;
    height: auto;
     margin: 40px;
   
-  
-  
+    
 }
+
   
  
 
@@ -970,11 +973,8 @@ flex-direction: column;
     padding-bottom: 0;
 }
 
-.testimonial__buttons{
-    display: flex;
-    align-items: center;
-}
- .testimonial__button:hover{
+
+ .testimonial__button:hover {
     transform: scale(1.1);
  }
 
@@ -1015,6 +1015,7 @@ figure .testimonials__img {
     gap: 12px;
     justify-content: right;
 }
+
  .testimonial__button {
     width: 48px;
     height: 48px;
@@ -1026,7 +1027,7 @@ figure .testimonials__img {
 
 
 
-}
+
 
 
 /*
@@ -1401,6 +1402,18 @@ MOBILE RESPONSIVENESS ↓
         align-items: center;
     }
 
+    .header__description h1, 
+    .header__description p,
+   .customer__logo
+     input .email__input
+     .label__email__wrapper 
+   
+     {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
     footer {
         padding: 80px 32px;
@@ -1607,6 +1620,7 @@ gap: 20px;
 
 
 @media(min-width: 600px) {
+
       #start .row {
         flex-direction: row; /* Switch to row layout */
         justify-content: space-around; /* Space out buttons */
@@ -1621,6 +1635,14 @@ gap: 20px;
         margin: 0 10px; /* Horizontal margin */
         flex-direction: row;
     }
+
+      p .logo__title
+     img .logo__img__strip {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column
+     }
 }
 
 
@@ -1637,11 +1659,23 @@ gap: 20px;
         margin-bottom: 80px;
     }
 
-}
 
 
 
 @media (max-width: 480px) {
+
+  p .logo__title
+     img .logo__img__strip {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column
+     }
+   .email__input {
+    width: 100%;
+    padding: 0 16pc;
+   }
+
     #quality .container__quality {
          font-size: 10px;
           }
