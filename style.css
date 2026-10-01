@@ -295,11 +295,9 @@ HEADER / ABOUT US
 
 }
 
-#header h1 {
-    margin: 0,0,16px, 0;
-}
 
-header .container {
+
+#header .container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -312,7 +310,7 @@ header .container {
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
-    margin: 0,0 16px 0;
+   
     height: 500px;
     width: 550px;
     padding: 24px;
@@ -337,7 +335,7 @@ header .container {
     color: #a0aec0;
     font-size: 12px;
     font-weight: 700;
-   margin-bottom: 0 0 16px 0px;
+   
    align-items: flex-start;
 
 }
@@ -345,7 +343,7 @@ header .container {
     padding: 16px;
     align-items: flex-start;
     opacity: 0.5;
-    margin: 0 0 16px 0px;
+  
     width: 75%;
     
 }
@@ -353,15 +351,15 @@ header .container {
    
 .row__subtitle p{
     padding: 10;
-    margin: 0, 0 16px 0px;
+   
    
 
 .design__illustration {
   width: 100%;
-   max-width: 700px;
+   max-width: 300px;
    height: auto;
-  margin: 0 16px 80px 48px;
-  padding: 20px;
+    margin: 40px;
+  
   
   
 }
@@ -1023,10 +1021,10 @@ figure .testimonials__img {
     padding: 0;
     border-radius: 50%;
     background-color: #edf2f7;
-    color: #6415ff;: 
+    color: #6415ff;
  }
 
-.testimonial__button:hover {
+
 
 }
 
@@ -1606,7 +1604,7 @@ gap: 20px;
 
 
 
-}
+
 
 @media(min-width: 600px) {
       #start .row {
