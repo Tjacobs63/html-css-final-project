@@ -335,23 +335,21 @@ HEADER / ABOUT US
 
  .logo__title {
     color: #a0aec0;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 700;
-   
-   align-items: flex-start;
+    align-items: flex-start;
 
 }
 
 img .logo__img--strip {
-    padding: 10px;
+    padding: 20px;
     align-items: flex-start;
     opacity: 0.5;
-    
   
     
 }
 
-.log__img--strip {
+.logo__img--strip {
     width: 100%;
 }
 
@@ -361,7 +359,7 @@ img .logo__img--strip {
   width: 100%;
    max-width: auto;
    height: auto;
-   margin: 40px;
+   margin: 30px;
   
     
 }
@@ -408,6 +406,7 @@ header .img {
     height: 68px;
     padding: 0 180px 0 32px;
     border-radius: 9999px;
+  
   
 }
 
@@ -1419,7 +1418,7 @@ MOBILE RESPONSIVENESS ↓
         align-items: center;
     }
 
-    .label__email--wrapper {
+    .label__email-wrapper {
         margin: 0 auto;
     }
 
@@ -1484,6 +1483,13 @@ MOBILE RESPONSIVENESS ↓
      .modal .open {
         visibility: visible;
      }
+
+      .label__email-wrapper {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
 
 .features__service {
     grid-template-columns: minmax(0, 384px);
@@ -1678,6 +1684,22 @@ gap: 20px;
      
     }
 
+    input.email_-input {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+     .label__email-wrapper {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+ button.btn_-email{
+    flex-direction: column;
+    justify-content: center;
+ }
 p.row__subtitle {
     padding: 20px;
 }
@@ -1737,6 +1759,29 @@ p.row__subtitle {
         
 @media (max-width: 480px) {
 
+
+    #header .container {
+        padding: 0 16px;
+        text-align: center:
+
+    }
+
+    .header__description {
+        font-size: 24px;
+    }
+
+    .header__description .row__subtitle {
+        font-size: 14p;
+    }
+
+    .label__email-wrapper {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
   .logo__title {
     display: flex;
     justify-content: center;
@@ -1754,9 +1799,12 @@ p.row__subtitle {
 
    .email__input {
     width: 100%;
-    padding: 0 140px 0 24px;
+     margin-bottom: 10px;
    }
-
+   
+.btn__start {
+    width: 100%;
+}
     #quality .container__quality {
          font-size: 10px;
           }
