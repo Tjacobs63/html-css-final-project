@@ -313,7 +313,7 @@ HEADER / ABOUT US
     text-align: left;
     box-sizing: border-box;
     height: auto;
-    width: 50%;
+    width: 100%;
     padding: 24px;
 
 }
@@ -1423,6 +1423,8 @@ MOBILE RESPONSIVENESS ↓
         margin: 0 auto;
     }
 
+    
+
     footer {
         padding: 80px 32px;
     }
@@ -1720,7 +1722,7 @@ gap: 20px;
         width: 100%;
     }
 
-    .btn__email{
+    .btn__email {
     position: static;
     width: 100%;
     padding: 16px 0;
@@ -1824,13 +1826,7 @@ p.row__subtitle {
     
    }
 
-     .btn__email{
-    position: static;
-    width: 100%;
-    padding: 16px 0;
-    margin: 16px 0 0;
-}
-   
+  
 .btn__start {
     width: 100%;
 }
