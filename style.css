@@ -311,9 +311,8 @@ HEADER / ABOUT US
     justify-content: space-between;
     text-align: left;
     box-sizing: border-box;
-   
-    height: 500px;
-    width: 550px;
+    height: auto;
+    width: 50%;
     padding: 24px;
 
 }
@@ -324,18 +323,14 @@ HEADER / ABOUT US
     padding: 4px;
 }
 
-.customer__logo {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-width: 220px;
-  
-    color: #a0aec0;
-    font-size: 48px;
-    font-weight: 790;
-   
+.header__customers--title {
+    Font-size: 12px;
+    margin-top: 48px;
+    padding: 4px;
 
 }
+
+
 
 
  .logo__title {
@@ -346,12 +341,13 @@ HEADER / ABOUT US
    align-items: flex-start;
 
 }
-.logo__img--strip {
-    padding: 16px;
+
+img .logo__img--strip {
+    padding: 10px;
     align-items: flex-start;
     opacity: 0.5;
+    
   
-    width: 75%;
     
 }
 
@@ -359,9 +355,9 @@ HEADER / ABOUT US
 
 .design__illustration {
   width: 100%;
-   max-width: 650px;
+   max-width: auto;
    height: auto;
-    margin: 40px;
+   margin: 40px;
   
     
 }
@@ -408,6 +404,7 @@ header .img {
     height: 68px;
     padding: 0 180px 0 32px;
     border-radius: 9999px;
+  
 }
 
 
@@ -430,8 +427,7 @@ button {
        bottom: 8px;
        border-radius: 9999px;
        
-      
-      
+        
     }
 
     .btn__email:hover {
@@ -439,9 +435,8 @@ button {
 
     }
 
-    .customer__logo {
-        align-self: flex-start;
-    }
+
+    
     
     .logo__img--strip {
         align-self: flex-start;
@@ -1660,20 +1655,92 @@ gap: 20px;
     }
 
 
+   
+    .header__description {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column
+     
+    }
+
+p.row__subtitle {
+    padding: 20px;
+}
+
+.customer__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    #quality .container__quality {
+         font-size: 10px;
+          }
+
+          #quality h1 {
+            font-size: 20px;
+          }
+          
+         #quality, p {
+            font-size: 14px;
+          }
+
+ #pricing .plan {
+        width: 100%; /* Full width on very small screens */
+    }
+
+       #testimonials .test__customers {
+        grid-template-columns: 1fr; /* Single column */
+    }
+
+    .values__title {
+        font-size: 1.2em; /* Further adjust title size */
+    }
+
+    .values__principles {
+        font-size: 1.5em; /* Further adjust principles size */
+    }
+
+    .value__btn {
+        padding: 10px 20px; /* Adjust button padding */
+        font-size: 0.9em; /* Adjust button font size */
+    }
 
 
+      .btn__start, .btn__contact {
+        width: auto; /* Reset button width */
+        margin: 0 4px; /* Horizontal margin */
+        flex-direction: column;
+
+    }
+
+ 
+     }
+
+
+ 
+        
 @media (max-width: 480px) {
 
-  p .logo__title
-     img .logo__img__strip {
+  .logo__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+     .logo__img--strip {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column
      }
+
    .email__input {
     width: 100%;
-    padding: 0 16pc;
+    padding: 0 24px;
    }
 
     #quality .container__quality {
@@ -1719,7 +1786,6 @@ gap: 20px;
 
  
         }
-
 
 
 #features .container {
