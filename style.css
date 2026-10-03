@@ -1639,6 +1639,13 @@ MOBILE RESPONSIVENESS ↓
     height: auto;
     flex-direction: column;
   }
+  .btn__email{
+    justify-content: center;
+    align-items: center;
+    position: static;
+    flex-direction: column;
+    
+  }
 
   .btn__start {
     width: 100%;
