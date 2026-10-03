@@ -274,7 +274,7 @@ HEADER / ABOUT US
   text-align: left;
   box-sizing: border-box;
   height: auto;
-  width: 50%;
+  width: 40%;
   padding: 24px;
 }
 
@@ -310,9 +310,9 @@ img .logo__img--strip {
 
 .design__illustration {
   width: 100%;
-  max-width: auto;
+  max-width: 100%;
   height: auto;
-  margin: 30px;
+  margin: 0 auto;
 }
 
 input {
@@ -336,6 +336,14 @@ header .img {
   height: 24px;
   width: 100%;
 }
+.header__img--wrapper{
+    width: 100%;
+    max-width: 100%;
+    margin-left: 32px;
+    height: auto;
+
+}
+
 
 .label__email-wrapper {
   border-radius: 9999px;
@@ -373,6 +381,7 @@ button {
   z-index: 1;
   height: 58px;
   border-radius: 9999px;
+  margin: 20px 2px 2px 4px;
 
 }
 
@@ -1526,6 +1535,7 @@ MOBILE RESPONSIVENESS ↓
     width: 100%;
     height: auto;
     padding: 16px 0 16px 32px;
+    flex-direction: column;
   }
 
   .label__email-wrapper {
@@ -1537,8 +1547,8 @@ MOBILE RESPONSIVENESS ↓
   .btn__email {
     position: static;
     width: 100%;
-    padding: 16px 0;
-    margin: 16px 0 0;
+  
+    flex-direction: column;
   }
 
   p.row__subtitle {
@@ -1722,6 +1732,7 @@ MOBILE RESPONSIVENESS ↓
   grid-row: 2;
   padding: 0;
   text-align: left;
+}
 }
 
 @media (max-width: 1024px) {
