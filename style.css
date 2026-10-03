@@ -537,6 +537,10 @@ STEPS ↓
   margin: 0 auto;
 }
 
+#step h1 {
+    margin: 0 auto;
+}
+
 .container__steps {
   display: flex;
   align-items: center;
@@ -545,7 +549,7 @@ STEPS ↓
 }
 
 .steps__img--wrapper {
-  width: 55%;
+  width: 60%;
 }
 
 .steps__img--wrapper img {
@@ -575,7 +579,7 @@ STEPS ↓
 .step__easy {
   padding: 8px;
   margin: 0 auto;
-}
+  justify-content: left;}
 
 .step__para {
   padding: 0;
@@ -583,14 +587,14 @@ STEPS ↓
 }
 
 .steps__description {
-  width: 45%;
+  width: 40%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
   margin: 8px auto;
-  padding: 16px;
+  padding: 24px;
 }
 
 /* 
@@ -1268,9 +1272,7 @@ MOBILE RESPONSIVENESS ↓
   footer {
     padding: 80px 32px;
   }
-}
 
-@media (max-width: 1024px) {
   .nav__links {
     display: none;
   }
@@ -1325,16 +1327,20 @@ MOBILE RESPONSIVENESS ↓
 
   .label__email-wrapper {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+     align-items: center;
+     width: 100%;
   }
 
+  .email__input {
+    position: static;
+    width: 100%;
+  }
 
-.btn_email {
+.btn__email {
    position: static;
-    flex-direction: column;
-    align-items: center;
-    justify-content: right;
+   width: 100%;
+   margin-top: 8px;
     
 }
 
@@ -1368,6 +1374,8 @@ MOBILE RESPONSIVENESS ↓
     font-size: 16px;
     padding: 0;
   }
+
+  
   #steps .row {
     flex-direction: column; /* Stack elements vertically */
     align-items: center; /* Center align items */
@@ -1474,7 +1482,7 @@ MOBILE RESPONSIVENESS ↓
     flex-direction: row;
   }
 
-  
+}
 
 
 @media (min-width: 600px) {
@@ -1531,22 +1539,22 @@ MOBILE RESPONSIVENESS ↓
   }
 
   .email__input {
+    position: static;
     width: 100%;
-    height: auto;
-    padding: 16px 0 16px 32px;
-    flex-direction: column;
+    margin-top: 8px;
+    min-height: 50px;
+    padding: 14px 20px;
   }
 
   .label__email-wrapper {
     flex-direction: column;
-    height: auto;
-    width: 100%;
+   
   }
 
   .btn__email {
     position: static;
     width: 100%;
-    flex-direction: column;
+   margin-top: 8px;
   }
 
   p.row__subtitle {
