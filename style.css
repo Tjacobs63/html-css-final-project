@@ -529,7 +529,7 @@ QUALITY WORK */
     margin-top: 8px;
 }
 
-.learn_-quality--btn:hover {
+.learn__quality--btn:hover {
   transform: scale(1.1);
 }
 
@@ -597,7 +597,7 @@ STEPS ↓
   margin-top: 16px;
 }
 
-.step__number {
+.step__number { 
   font-size: 36px;
   margin-right: 16px;
   color: grey;
@@ -650,9 +650,11 @@ VALUES ↓
  display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: flex-start;
   box-sizing: border-box;
   height: auto;
   Width: 40%;
+  
 }
 
 h3.values__title,
@@ -662,6 +664,8 @@ h1.values__principles,
 
 {
     text-align:left;
+    margin: 0;
+    padding: 0;
    
 }
 
@@ -763,13 +767,13 @@ button.value__btn{
 }
 
 button.value__btn,
-#values, 
-.values__description {
+#values
+ {
 
-  align-items: left;
+  align-self: flex-start;
   margin: 0;
   border-radius: 999px;
-  display: block;
+
 }
 
 
@@ -1018,14 +1022,17 @@ START / CALL TO ACTION ↓
 }
 
 #start .container {
-  display: flex;
+   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  width: 90%;
+  width: 100%;
   max-width: 1200px;
   background-color: rgb(100, 21, 255);
+  margin-right: -80px;
+  margin-left: 32px;
+     
 }
 
 * {
@@ -1068,6 +1075,8 @@ START / CALL TO ACTION ↓
 
 .btn__contact:hover {
   transform: scale(1.1);
+  background-color: white;
+  color: black;
 }
 
 .start__buttons {
@@ -1506,6 +1515,22 @@ MOBILE RESPONSIVENESS ↓
     flex-direction: column; /* Stack elements on smaller screens */
     text-align: center; /* Center text for readability */
   }
+
+.quality__work h3,
+.quality__work h1,
+.quality__work p,
+.learn_-quality--button
+
+{
+    align-items: center;
+    justify-items: center;
+}
+
+.values__title h3 {
+    align-items: center;
+    justify-content: center;
+}
+
 
   .values__description,
   .values__img--wrapper {
