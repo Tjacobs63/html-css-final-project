@@ -726,12 +726,13 @@ button.value__btn{
   height: 30px;
 }
 
-.value__title {
+.values__title h3{
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 3px;
   flex-direction: row;
+  font-size: 24px;
 }
 
 .value__para {
@@ -744,6 +745,10 @@ button.value__btn{
   line-height: 1.5;
   margin: 16px 0;
   letter-spacing: 0.025em;
+}
+
+.values__description p {
+    margin: 10px 0;
 }
 
 .values__title,
@@ -876,7 +881,7 @@ PRICING ↓
   transform: scale(1.1);
 }
 
-.plan__business {
+ .plan__business {
   width: 100%;
   height: 100%;
   background-color: rgb(108, 132, 227);
