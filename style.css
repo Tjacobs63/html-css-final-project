@@ -659,12 +659,18 @@ h3.values__title,
 h1.values__principles, 
 .values__description p,
 .values__list
+
 {
     text-align:left;
+   
+}
+
+button.value__btn{
+    text-align: left;
 }
 
 .values__principles .purple{
-    display: block;
+    display: inline-block;
     text-align: left;
     margin: 0;
     padding: 0;
@@ -744,9 +750,8 @@ h1.values__principles,
 }
 
 .value__btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+  align-items: left;
   margin: 0 auto;
   border-radius: 9999px;
   padding: 12px 24px;
