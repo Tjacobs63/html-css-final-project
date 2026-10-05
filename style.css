@@ -1000,8 +1000,8 @@ figure .testimonials__img {
 .testimonial__buttons {
   display: flex;
   gap: 8px;
-  align-items: right;
-  margin-bottom: 48px;
+  align-items: center;
+  margin-left: auto;
 }
 
 .testimonial__button {
@@ -1027,20 +1027,24 @@ figure .testimonials__img {
     line-height: 1.625;
     font-size: 1.25rem;
     font-weight: 700; 
-    margin-left: -200px;
+  
 }
 
 .testimonial__role {
     color: #7c8ba1;
     font-weight: 500;
     line-height: 1.5;
-    margin-left:-250px;
+   
 
+}
+
+.testimonial__info {
+  margin: left;
 }
 .test__customer {
     display: flex;
-    justify-content: space-between;
-   flex-direction: row;
+    align-items: center;
+    width: 100%;
 }
 
 .test__customers {
