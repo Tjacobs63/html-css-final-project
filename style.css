@@ -935,6 +935,7 @@ TESTIMONIALS ↓
   flex-direction: column;
   padding: 20px;
   text-align: left;
+  justify-content: space-between;
 }
 
 #testimonials .row {
@@ -949,13 +950,15 @@ TESTIMONIALS ↓
   width: 55%;
   margin-bottom: 16px;
   padding: 20px;
-  align-items: center;
-  justify-content: center;
+  align-items:flex-start;
+  box-sizing: border-box;
+  justify-content: space-between;
 }
 
 #testimonials h3,
-h1 {
+h1, p,.test__customers {
   padding-bottom: 0;
+  justify-content: left;
 }
 
 .testimonial__button:hover {
@@ -975,7 +978,7 @@ figure {
 figure .testimonials__img {
   width: 100%;
   height: auto;
-  margin: 56px;
+  margin: 24px 48px 24px 0;
   border-radius: 8px;
   justify-content: space-between;
 }
@@ -996,6 +999,7 @@ figure .testimonials__img {
   display: flex;
   gap: 12px;
   justify-content: right;
+  margin-bottom: 48px;
 }
 
 .testimonial__button {
@@ -1006,6 +1010,16 @@ figure .testimonials__img {
   background-color: #edf2f7;
   color: #6415ff;
 }
+
+.test__picture{
+    height: 48px;
+    width: 48px;
+    border-radius: 500px;
+}.test__customer {
+    display: flex;
+    flex-direction: row;
+}
+
 
 /*
 
@@ -1145,14 +1159,13 @@ FOOTER ↓
   align-items: flex-start;
   justify-content: space-between;
   width: 100%;
-  margin-bottom: 24px;
+
+
 }
 
 #footer .container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   margin-left: 0;
   width: 100%;
   background-color: rgb(100, 21, 255);
@@ -1167,10 +1180,10 @@ FOOTER ↓
 
 footer {
   width: 100%;
-  max-width: 1200px;
+ max-width: 1200px;
   flex-wrap: wrap;
   margin: 0 auto;
-  padding: 48px 40px;
+  padding: 40px 40px;
   background-color: rgb(100, 21, 255);
   margin-bottom: -32px;
   position: relative;
@@ -1323,6 +1336,9 @@ MOBILE RESPONSIVENESS ↓
     transform: translateY(-4px); /* Simple hover effect */
   }
 }
+
+
+
 
 @media (max-width: 1024px) {
   .btn__menu {
@@ -1571,11 +1587,30 @@ MOBILE RESPONSIVENESS ↓
   .testimonials__content {
     width: 100%;
     margin: 0;
+    align-items: center;
+    justify-content: center;
   }
+
+.test__buttons{
+justify-content: center;
+align-items: center;
+
+}
+
+.test__customer{
+display: flex;
+justify-content: space-between;
+
+}
+
   figure {
     margin-right: 0 auto;
     margin-bottom: 20px;
     padding-right: 20px;
+  }
+
+   .plan__business {
+     background-color: rgb(108, 132, 227);
   }
 
   .test__customers {
