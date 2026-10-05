@@ -966,6 +966,10 @@ h1{
  
 }
 
+#testimonials h1{
+  margin-left: 9px;
+}
+
 .testimonial__button:hover {
   transform: scale(1.1);
 }
@@ -979,6 +983,7 @@ h1{
 #testimonials h2 {
 Margin-bottom: 4px;
 text-align: left;
+margin-left: 18px;
 
 }
 
@@ -997,13 +1002,6 @@ figure .testimonials__img {
 }
 
 
-.testimonial__buttons {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-  margin-left: auto;
-}
-
 .testimonial__button {
   width: 48px;
   height: 48px;
@@ -1011,6 +1009,7 @@ figure .testimonials__img {
   border-radius: 50%;
   background-color: #edf2f7;
   color: #6415ff;
+  margin-left: 32px;
 }
 
 .test__picture{
@@ -1039,8 +1038,9 @@ figure .testimonials__img {
 }
 
 .testimonial__info {
-  margin: left;
+  margin-left: 16px;
 }
+
 .test__customer {
     display: flex;
     align-items: center;
@@ -1049,9 +1049,6 @@ figure .testimonials__img {
 
 .test__customers {
 text-align: left;
-
-
-
 
 }
 
