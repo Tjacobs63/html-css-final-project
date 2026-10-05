@@ -953,12 +953,15 @@ TESTIMONIALS ↓
   align-items:flex-start;
   box-sizing: border-box;
   justify-content: space-between;
+  text-align: left;
+  flex-wrap: wrap;
 }
 
 #testimonials h3,
-h1, p,.test__customers {
-  padding-bottom: 0;
-  justify-content: left;
+h1, p {
+  padding-bottom: 12px;
+  gap: 12px;
+  text-align: left;
 }
 
 .testimonial__button:hover {
@@ -993,11 +996,12 @@ figure .testimonials__img {
   color: black;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  display: flex;
 }
 
 .testimonial__buttons {
   display: flex;
-  gap: 12px;
+  gap: 8px;
   justify-content: right;
   margin-bottom: 48px;
 }
@@ -1012,12 +1016,29 @@ figure .testimonials__img {
 }
 
 .test__picture{
-    height: 48px;
-    width: 48px;
+    height: 64px;
+    width: 64px;
     border-radius: 500px;
-}.test__customer {
+    margin-right: 32px;
+
+}
+
+.testimonial__name {
+    color: #4a5560;
+    line-height: 1.625;
+    font-size: 1.25rem;
+    font-weight: 700; 
+}
+
+.testimonial__role {
+    color: #7c8ba1;
+    font-weight: 500;
+    line-height: 1.5;
+
+}
+.test__customer {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 }
 
 
