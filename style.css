@@ -1637,7 +1637,7 @@ MOBILE RESPONSIVENESS ↓
     flex-direction: column;
   }
 
-  h1 .step__easy {
+  .step__easy {
     align-items: center;
     justify-content: center;
     text-align: center;
