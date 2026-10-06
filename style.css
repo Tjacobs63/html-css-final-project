@@ -34,7 +34,7 @@ h1 {
 }
 
 h3 {
-  padding: 24px;
+
   font-size: 24px;
   text-align: left;
   margin-bottom: 24px;
@@ -90,7 +90,7 @@ a:hover {
 .purple {
   color: #6415ff;
   display: inline;
-   margin-left: 8px;
+  margin: 0 auto;
 }
 
 section {
@@ -509,15 +509,17 @@ QUALITY WORK */
 .quality__work h3,
 .quality__work h1,
 .quality__work p {
- 
-  margin: 0 auto;
+   margin: 0 auto;
   text-align: left;
   }
 
   #quality .purple {
-    text-align: left;
+   text-align: left;
     margin: 0 auto;
+    display: block;
+  
   }
+
   .quality__work p {
     padding: 4px 0 8px 0;
   }
@@ -573,9 +575,11 @@ STEPS ↓
 #step h1 {
     margin: 0 auto;
 }
+
 #steps .purple {
   margin: 0;
 }
+
 .container__steps {
   display: flex;
   align-items: center;
@@ -620,7 +624,8 @@ STEPS ↓
   text-align: center;
   padding: 8px;
   margin: 0 auto;
-  justify-content: left;}
+  justify-content: left;
+}
 
 .step__para {
   padding: 0;
@@ -655,6 +660,7 @@ VALUES ↓
   align-items: center;
   justify-content: space-between;
 }
+
 .values__description {
  display: flex;
   flex-direction: column;
@@ -1030,8 +1036,7 @@ figure .testimonials__img {
     height: 64px;
     width: 64px;
     border-radius: 500px;
-    
-   
+     
 
 }
 
@@ -1275,7 +1280,6 @@ footer {
   margin-top: 24px;
   width: 100%;
   margin-bottom: 16px;
-
   justify-content: space-evenly;
 }
 
@@ -1429,9 +1433,7 @@ MOBILE RESPONSIVENESS ↓
     margin: 0 auto;
   }
 
-  #quality h3 {
-    text-align: center;
-  }
+  
   .quality__work{
     margin-right: 16px;
   }
@@ -1450,6 +1452,7 @@ MOBILE RESPONSIVENESS ↓
     text-align: center;
     margin: 0 auto;
   }
+
 .test__customers{
   align-items: center;
   justify-content: center;
