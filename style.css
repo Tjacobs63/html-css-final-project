@@ -2021,6 +2021,11 @@ margin:0;
     grid-template-columns: 1fr; /* Single column */
   }
 
+
+  .testimonial__rating{
+    margin-bottom: 20px;
+  }
+
   .values__title {
     font-size: 1.2em; /* Further adjust title size */
   }
@@ -2086,6 +2091,15 @@ margin:0;
   grid-row: 2;
   padding: 0;
   text-align: left;
+}
+
+.test_-customer{
+  flex-direction: column;
+  align-items: center;
+}
+
+.text__buttons {
+  margin-left: 0;
 }
 }
 
