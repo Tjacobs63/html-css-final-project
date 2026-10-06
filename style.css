@@ -266,6 +266,13 @@ HEADER / ABOUT US
   justify-content: space-between;
 }
 
+#header .purple {
+    text-align: left;
+   margin: 0;
+      display: block;
+  
+  }
+}
 
 .header__description {
   display: flex;
@@ -276,6 +283,7 @@ HEADER / ABOUT US
   height: auto;
   width: 40%;
   padding: 24px;
+  
 }
 
 .header__description h1,
