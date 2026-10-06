@@ -1652,20 +1652,19 @@ MOBILE RESPONSIVENESS ↓
     width: 100%;
     margin: 0;
     align-items: center;
-    justify-content: center;
+   
   }
-
+.test__customers,
+testimonial__img{
+  text-align: center;
+  
+}
 .test__buttons{
-justify-content: center;
-align-items: center;
+text-align: center;
 
 }
 
-.test__customer{
-display: flex;
-justify-content: space-between;
 
-}
 
   figure {
     margin-right: 0 auto;
@@ -1701,7 +1700,7 @@ justify-content: space-between;
   .btn__contact {
     width: auto; /* Reset button width */
     margin: 0 10px; /* Horizontal margin */
-    flex-direction: row;
+    flex-direction: column;
   }
 
 }
