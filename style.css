@@ -1702,7 +1702,17 @@ text-align: center;
     margin: 0 10px; /* Horizontal margin */
     flex-direction: column;
   }
+.footer__logo{
+ flex-direction: column;
+ gap: 16px;
+ height: auto;
 
+}
+
+.footer__socials {
+width: auto;
+margin:0;
+}
 }
 
 
