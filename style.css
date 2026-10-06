@@ -27,7 +27,7 @@ h1 {
   font-weight: 700;
   line-height: 1.2;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   flex-wrap: wrap;
   padding: 16px 0;
   text-align: center;
@@ -265,6 +265,7 @@ HEADER / ABOUT US
   flex-direction: column;
   justify-content: space-between;
 }
+
 
 .header__description {
   display: flex;
@@ -509,14 +510,13 @@ QUALITY WORK */
 .quality__work h3,
 .quality__work h1,
 .quality__work p {
-   margin: 0 auto;
   text-align: left;
   }
 
   #quality .purple {
    text-align: left;
-    margin: 0 auto;
-    display: block;
+   margin: 0;
+      display: block;
   
   }
 
@@ -538,6 +538,7 @@ QUALITY WORK */
 
 .quality__image {
   width: 60%;
+  margin-left: 32px;
 }
 
 .quality__image img {
