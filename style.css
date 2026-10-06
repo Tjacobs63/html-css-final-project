@@ -511,16 +511,14 @@ QUALITY WORK */
 .quality__work p {
   text-align: left;
   padding: 0;
+  
   }
 
   .quality__work p {
     padding: 4px 0 8px 0;
   }
 
-.quality__work h1 {
-  justify-content: flex-start;
-  text-align: left;
-}
+
 .learn__quality--btn {
     text-align: left;
     border-radius: 9999;
@@ -571,7 +569,9 @@ STEPS ↓
 #step h1 {
     margin: 0 auto;
 }
-
+#steps .purple {
+  margin: 0;
+}
 .container__steps {
   display: flex;
   align-items: center;
@@ -610,12 +610,8 @@ STEPS ↓
 .step__easy,
 .values__principles,
 #quality h1,
-#features h1{
+#features h1 {
   text-align: center;
-}
-
-
- {
   padding: 8px;
   margin: 0 auto;
   justify-content: left;}
@@ -1327,6 +1323,7 @@ MOBILE RESPONSIVENESS ↓
     padding: 40px 20px;
   }
 
+ 
   #steps .row {
     display: flex; /* Use flexbox to align items side by side */
     justify-content: space-between; /* Space out items */
@@ -1340,6 +1337,7 @@ MOBILE RESPONSIVENESS ↓
 
   .steps__description {
     flex: 2; /* Allow this to take more space */
+    
   }
 
   .step {
@@ -1511,8 +1509,7 @@ MOBILE RESPONSIVENESS ↓
     flex: none;
     width: 100%;
     max-width: 448px;
-    justify-content: center;
-    align-items: center;
+    align-items: left;
   }
   
 
@@ -1538,6 +1535,7 @@ MOBILE RESPONSIVENESS ↓
   #steps .row {
     flex-direction: column; /* Stack elements vertically */
     align-items: center; /* Center align items */
+    text-align: center;
   }
 
   .steps__img--wrapper {
@@ -1675,12 +1673,12 @@ text-align: center;
    .plan__business {
      background-color: rgb(108, 132, 227);
   }
-
-  .test__customers {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
-  }
+.testimonials__container{
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+ 
 
   #start .row {
     flex-direction: column;
