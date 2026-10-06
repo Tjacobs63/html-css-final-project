@@ -89,9 +89,8 @@ a:hover {
 
 .purple {
   color: #6415ff;
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 8px;
+  display: inline;
+   margin-left: 8px;
 }
 
 section {
@@ -608,7 +607,15 @@ STEPS ↓
   text-align: left;
 }
 
-.step__easy {
+.step__easy,
+.values__principles,
+#quality h1,
+#features h1{
+  text-align: center;
+}
+
+
+ {
   padding: 8px;
   margin: 0 auto;
   justify-content: left;}
@@ -657,8 +664,8 @@ VALUES ↓
   
 }
 
-h3.values__title,
-h1.values__principles, 
+.values__title,
+.values__principles, 
 .values__description p,
 .values__list
 
@@ -1561,10 +1568,7 @@ MOBILE RESPONSIVENESS ↓
     text-align: center;
   }
 
-  .purple {
-    display: flex;
-    
-  }
+
 
 .step__title {
     text-align: center;
@@ -1629,10 +1633,11 @@ MOBILE RESPONSIVENESS ↓
     margin: 10px 0; /* Margin between stacked value boxes */
   }
 
-  .values__title {
+  .values__title,
+  .value__btn{
     font-size: 1.5em; /* Increase title size */
- align-items: center;
- justify-content: center;
+   text-align: center;
+
   }
 
   .values__principles {
