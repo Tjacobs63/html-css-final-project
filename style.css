@@ -1081,9 +1081,7 @@ START / CALL TO ACTION ↓
   width: 100%;
   max-width: 1200px;
   background-color: rgb(100, 21, 255);
-  margin-right: -80px;
-  margin-left: 32px;
-     
+  margin: 0 auto;
 }
 
 * {
@@ -1140,8 +1138,8 @@ START / CALL TO ACTION ↓
   justify-content: space-between;
   flex-wrap: wrap;
   color: white;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  margin-top: 0;
 }
 
 .info__lists {
@@ -1173,6 +1171,9 @@ FOOTER ↓
   flex-direction: column;
 }
 
+#footer a {
+  margin: 12px;
+}
 #footer .row {
   display: flex;
   flex-direction: column;
@@ -1182,7 +1183,16 @@ FOOTER ↓
   overflow: hidden;
   width: 100%;
   margin: 0 auto;
-  padding: 0 32px;
+  padding: 0 16x;
+}
+
+#footer .head {
+  margin-bottom: 16px;
+}
+
+.info__list {
+  width: 100%;
+
 }
 
 .info__lists ul {
@@ -1191,14 +1201,13 @@ FOOTER ↓
   align-items: flex-start;
   justify-content: space-between;
   width: 100%;
-
-
+ 
 }
 
 #footer .container {
   display: flex;
   flex-direction: column;
-  margin-left: 0;
+  margin: 0 auto;
   width: 100%;
   background-color: rgb(100, 21, 255);
 }
@@ -1491,11 +1500,14 @@ MOBILE RESPONSIVENESS ↓
   }
 
   #quality .quality__work,
-  #quality .quality__image {
+  #quality .quality__image{
     flex: none;
     width: 100%;
     max-width: 448px;
+    justify-content: center;
+    align-items: center;
   }
+  
 
   #quality .quality__image {
     margin-top: 0;
@@ -1532,15 +1544,28 @@ MOBILE RESPONSIVENESS ↓
     padding: 0;
     margin-top: 64px;
     justify-content: center;
+    align-items: center;
     width: 100%;
   }
-
-  .step {
+  
+  .step{
     width: 100%; /* Make steps full width */
     text-align: center; 
     justify-content: center;
     flex-direction: column;
   }
+
+  h1 .step__easy {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .purple {
+    display: flex;
+    
+  }
+
 .step__title {
     text-align: center;
     justify-content: center;
@@ -1606,6 +1631,8 @@ MOBILE RESPONSIVENESS ↓
 
   .values__title {
     font-size: 1.5em; /* Increase title size */
+ align-items: center;
+ justify-content: center;
   }
 
   .values__principles {
@@ -1772,6 +1799,24 @@ justify-content: space-between;
 
    .learn__quality--btn {
     text-align: center;
+    justify-content: center;
+  }
+
+  #features h1 {
+    text-align: center;
+    justify-content: center;
+  }
+.values__description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .values__title h3 {
+    align-items: center;
+    justify-content: center;
+  }
+  .value__btn{
+    align-items: center;
     justify-content: center;
   }
   #pricing .plan {
