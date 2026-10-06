@@ -36,7 +36,7 @@ h1 {
 h3 {
   padding: 24px;
   font-size: 24px;
-  text-align: center;
+  text-align: left;
   margin-bottom: 24px;
   color: #6415ff;
 }
@@ -46,8 +46,8 @@ p {
   line-height: 1.2;
   padding: 24px;
   flex-wrap: wrap;
-  align-items: center;
-  text-align: center;
+  align-items: left;
+  text-align: left;
 }
 
 .input {
@@ -509,11 +509,15 @@ QUALITY WORK */
 .quality__work h3,
 .quality__work h1,
 .quality__work p {
+ 
+  margin: 0 auto;
   text-align: left;
-  padding: 0;
-  
   }
 
+  #quality .purple {
+    text-align: left;
+    margin: 0 auto;
+  }
   .quality__work p {
     padding: 4px 0 8px 0;
   }
@@ -606,10 +610,12 @@ STEPS ↓
 .step__para {
   text-align: left;
 }
-
+.step_-easy{
+  display: block;
+}
 .step__easy,
 .values__principles,
-#quality h1,
+
 #features h1 {
   text-align: center;
   padding: 8px;
@@ -1657,6 +1663,7 @@ MOBILE RESPONSIVENESS ↓
     text-align: center; /* Center text for readability */
   }
 
+  
 #values .quality__work h3,
 #values .quality__work h1,
 #values .quality__work p,
