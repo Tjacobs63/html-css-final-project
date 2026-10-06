@@ -624,7 +624,6 @@ STEPS ↓
 }
 .step__easy,
 .values__principles,
-
 #features h1 {
   text-align: center;
   padding: 8px;
@@ -632,6 +631,9 @@ STEPS ↓
   justify-content: left;
 }
 
+.step__easy {
+  text-align: left;
+}
 .step__para {
   padding: 0;
   margin-top: 8px;
