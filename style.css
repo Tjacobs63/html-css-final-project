@@ -1004,6 +1004,11 @@ figure .testimonials__img {
   justify-content: space-between;
 }
 
+.test__buttons{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
 
 .testimonial__button {
   width: 48px;
@@ -1745,7 +1750,6 @@ text-align: center;
   text-align: center;
 }
  
-
 
   #start .row {
     flex-direction: column;
