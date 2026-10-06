@@ -26,9 +26,6 @@ h1 {
   font-size: 48px;
   font-weight: 700;
   line-height: 1.2;
-  display: flex;
-  justify-content: start;
-  flex-wrap: wrap;
   padding: 16px 0;
   text-align: center;
 }
@@ -89,8 +86,7 @@ a:hover {
 
 .purple {
   color: #6415ff;
-  display: inline;
-  margin: 0 auto;
+
 }
 
 section {
