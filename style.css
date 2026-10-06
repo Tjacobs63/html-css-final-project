@@ -962,7 +962,7 @@ TESTIMONIALS ↓
 }
 
 #testimonials h3,
-h1{
+#testimonials h1{
   padding-bottom: 8px;
   text-align: left;
   box-sizing: border-box;
@@ -1418,6 +1418,45 @@ MOBILE RESPONSIVENESS ↓
     margin: 0 auto;
   }
 
+  #quality h3 {
+    text-align: center;
+  }
+  .quality__work{
+    margin-right: 16px;
+  }
+  
+  #quality .learn__quality--btn{
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  #steps h3 {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  #values .values__title {
+    text-align: center;
+    margin: 0 auto;
+  }
+.test__customers{
+  align-items: center;
+  justify-content: center;
+}
+  #pricing h3 {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  #values .purple {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  #values .value__btn{
+    align-items: center;
+    margin: 0 auto;
+  }
   footer {
     padding: 80px 32px;
   }
@@ -1493,6 +1532,11 @@ MOBILE RESPONSIVENESS ↓
     
 }
 
+#features .purple {
+  display: block;
+  text-align: center;
+  
+}
   .features__service {
     grid-template-columns: minmax(0, 384px);
     justify-content: center;
@@ -1509,26 +1553,38 @@ MOBILE RESPONSIVENESS ↓
     flex: none;
     width: 100%;
     max-width: 448px;
-    align-items: left;
+    align-items: center;
+    margin-bottom: 16px;
   }
   
 
-  #quality .quality__image {
+  #quality .quality_image {
     margin-top: 0;
   }
 
   #quality h1 {
     font-size: 24px;
+    text-align: center;
+    margin: 0 auto;
+    display:block;
+  }
+
+  #quality .purple{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
   }
 
   #quality p {
     font-size: 16px;
     padding: 0;
+    margin-bottom: 16px;
   }
 
   .learn__quality--btn {
     text-align: center;
     justify-content: center;
+    
   }
 
   
@@ -1596,14 +1652,13 @@ MOBILE RESPONSIVENESS ↓
     text-align: center; /* Center text for readability */
   }
 
-.quality__work h3,
-.quality__work h1,
-.quality__work p,
-.learn_-quality--button
+#values .quality__work h3,
+#values .quality__work h1,
+#values .quality__work p,
 
 {
-    align-items: center;
-    justify-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 .values__title h3 {
@@ -1642,6 +1697,11 @@ MOBILE RESPONSIVENESS ↓
     font-size: 1.8em; /* Increase principles size */
   }
 
+  #testimonials .container {
+    text-align: center;
+    margin: 0 auto;
+  }
+
   #testimonials .row {
     flex-direction: column;
     align-items: center;
@@ -1678,7 +1738,14 @@ text-align: center;
   align-items: center;
   flex-direction: column;
 }
+
+#testimonials h3,
+ #testimonials h2, 
+ #testimonials p{
+  text-align: center;
+}
  
+
 
   #start .row {
     flex-direction: column;
