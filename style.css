@@ -1744,8 +1744,6 @@ text-align: center;
 
 }
 
-
-
   figure {
     margin-right: 0 auto;
     margin-bottom: 20px;
@@ -1755,6 +1753,7 @@ text-align: center;
    .plan__business {
      background-color: rgb(108, 132, 227);
   }
+
 .testimonials__container{
   text-align: center;
   align-items: center;
@@ -1763,7 +1762,7 @@ text-align: center;
 
 #testimonials h3,
  #testimonials h2, 
- #testimonials p{
+ #testimonials p {
   text-align: center;
 }
  
@@ -1773,11 +1772,13 @@ text-align: center;
     text-align: center;
     gap: 28px;
   }
+
   .start__now {
     width: 100%;
     font-size: 26px;
     text-align: center;
   }
+
   .start__buttons {
     justify-content: center;
   }
@@ -1788,6 +1789,7 @@ text-align: center;
     margin: 0 10px; /* Horizontal margin */
     flex-direction: column;
   }
+
 .footer__logo{
  flex-direction: column;
  gap: 16px;
@@ -1830,30 +1832,29 @@ margin:0;
     position: static;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center; 
     
 }
-#quality p {
-  margin-bottom: 20px;
+
+.step_para{
+  text-align: center;
+  margin: 0 auto;
 }
-
- .step__para {
-    text-align: center;
-    margin: 0 auto;
-  }
-
   .step_-number {
     font-size: 28px;
 }
 
 .value{
   text-align: center;
+}
 
   #values, .value, p{
     text-align: center;
   }
-}
+
+
+
+
 @media (max-width: 640px) {
   .container {
     padding: 80px 0;
