@@ -1834,6 +1834,22 @@ margin:0;
     
     
 }
+
+ .step__para {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .step_-number {
+    font-size: 28px;
+}
+
+.value{
+  text-align: center;
+
+  #values, .value, p{
+    text-align: center;
+  }
 }
 @media (max-width: 640px) {
   .container {
@@ -1874,9 +1890,7 @@ margin:0;
    margin-top: 8px;
   }
 
-  p.row__subtitle {
-    padding: 20px;
-  }
+  
 
   .customer__logo {
     display: flex;
@@ -1898,12 +1912,15 @@ margin:0;
     text-align: center;
     justify-content: center;
     margin: 0 auto;
+    margin-bottom: 16px;
   }
 
    .learn__quality--btn {
     text-align: center;
     justify-content: center;
   }
+
+ 
 
   #features h1 {
     text-align: center;
