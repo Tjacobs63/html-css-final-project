@@ -1834,6 +1834,9 @@ margin:0;
     
     
 }
+#quality p {
+  margin-bottom: 20px;
+}
 
  .step__para {
     text-align: center;
