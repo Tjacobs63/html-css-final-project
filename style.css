@@ -1077,6 +1077,7 @@ figure .testimonials__img {
     display: flex;
     align-items: center;
     width: 100%;
+    justify-content: space-between;
 }
 
 .test__customers {
@@ -1512,6 +1513,11 @@ MOBILE RESPONSIVENESS ↓
   .features__service-item {
     padding: 32px 8px;
   }
+
+  .start__buttons {
+    width: auto;
+    margin: 24px; }
+
 }
 
 @media (min-width: 900px) {
@@ -1702,8 +1708,9 @@ MOBILE RESPONSIVENESS ↓
   }
 
   .values__img--wrapper {
+    width: 100%;
     height: auto;
-    margin-top: 32px;
+    margin-top: 0 0 32px;
   }
 
   .values__list {
@@ -2114,8 +2121,19 @@ p {
     font-size: 0.9em; /* Adjust button font size */
   }
 
-  .btn__start,
-  .btn__contact {
+  .test__customer {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4px;
+  }
+.test__buttons,
+.testimonial__name,
+.testimonial__role {
+  margin: 0 auto;
+  text-align: center;
+}
+
+ .start__buttons{
     width: auto; /* Reset button width */
     margin: 0 4px; /* Horizontal margin */
     flex-direction: column;
@@ -2204,6 +2222,10 @@ p {
 @media (max-width: 640px) {
   #features {
     padding: 0 24px;
+  }
+
+  #features p {
+   text-align: center;
   }
   #features h1 {
     font-size: 36px;
