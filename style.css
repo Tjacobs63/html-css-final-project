@@ -1869,9 +1869,11 @@ p {
   .values__name--list,
   #values p {
     text-align: center;
-  }
-  #pricing p {
-    text--align: center;}
+  } 
+
+#pricing p {
+  text-align: center;
+margin: 0 auto; }
 
 
 }
