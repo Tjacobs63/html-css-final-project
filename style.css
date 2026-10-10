@@ -1875,7 +1875,10 @@ p {
   text-align: center;
 margin: 0 auto; }
 
-
+#testimonials h3,
+#testimonials h1,
+#testimonials p {
+  text-align: center;}
 }
 
 
@@ -1977,6 +1980,13 @@ margin: 0 auto; }
   #testimonials .test__customers {
     grid-template-columns: 1fr; /* Single column */
   }
+
+  #testimonials h3,
+#testimonials h1,
+#testimonials p {
+  text-align: center;
+}
+
 
   .values__title {
     font-size: 1.2em; /* Further adjust title size */
