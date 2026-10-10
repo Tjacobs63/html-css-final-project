@@ -1836,21 +1836,27 @@ margin:0;
     
 }
 
-.step_para{
+.step__description, .step__para p {
   text-align: center;
-  margin: 0 auto;
+  align-items: center;
+  margin: 0 4px 4px 4px;
+
 }
-  .step_-number {
+  .step__number {
     font-size: 28px;
 }
 
 .value{
   text-align: center;
-}
+  margin: 0 auto;
 
-  #values, .value, p{
-    text-align: center;
   }
+
+  .value__para{
+    text-align: center;
+    margin: 0 auto;
+  }
+
 
 
 
