@@ -844,6 +844,12 @@ PRICING ↓
   align-items: center;
 }
 
+#pricing .row > p {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .plan__personal {
   border-top: 5px solid rgb(32, 224, 32);
   width: calc(33.33% - 20px);
@@ -1669,8 +1675,9 @@ MOBILE RESPONSIVENESS ↓
   }
 
   #values .row {
-    flex-direction: column; /* Stack elements on smaller screens */
+    flex-direction: column-reverse; /* Stack elements on smaller screens */
     text-align: center; /* Center text for readability */
+    align-items: center;
   }
 
   
@@ -1871,9 +1878,7 @@ p {
     text-align: center;
   } 
 
-#pricing p {
-  text-align: center;
-margin: 0 auto; }
+
 
 #testimonials h3,
 #testimonials h1,
