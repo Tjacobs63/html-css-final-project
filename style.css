@@ -1870,6 +1870,8 @@ p {
   #values p {
     text-align: center;
   }
+  #pricing p {
+    text--align: center;}
 
 
 }
