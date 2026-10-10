@@ -1805,6 +1805,8 @@ margin:0;
 
 
 @media (min-width: 600px) {
+
+ 
   #start .row {
     flex-direction: row; /* Switch to row layout */
     justify-content: space-around; /* Space out buttons */
@@ -1836,6 +1838,10 @@ margin:0;
     
 }
 
+p.row__description{
+  text-align: center;
+}
+
 .step__description, .step__para p {
   text-align: center;
   align-items: center;
@@ -1858,7 +1864,7 @@ margin:0;
   }
 
 
-
+}
 
 
 @media (max-width: 640px) {
