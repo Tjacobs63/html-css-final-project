@@ -1838,16 +1838,18 @@ margin:0;
     
 }
 
-p.row__description{
+.quality__work p{
   text-align: center;
-}
 
-.step__description, .step__para p {
-  text-align: center;
-  align-items: center;
-  margin: 0 4px 4px 4px;
+} 
+p {
+  text-align: center;}
 
-}
+
+
+.step {
+  text-align: center; }
+
   .step__number {
     font-size: 28px;
 }
@@ -1861,6 +1863,12 @@ p.row__description{
   .value__para{
     text-align: center;
     margin: 0 auto;
+  }
+
+  .values__icon,
+  .values__name--list,
+  #values p {
+    text-align: center;
   }
 
 
@@ -1913,6 +1921,9 @@ p.row__description{
     justify-content: center;
     align-items: center;
   }
+ #features p {
+  text-align: center; }
+
 
   #quality .container__quality {
     font-size: 10px;
@@ -2046,6 +2057,17 @@ p.row__description{
   p {
     font-size: 14px;
   }
+
+  .step__para{
+    text-align: center;}
+
+    .values__title,
+    .values__principles,
+    #values p,
+    .values__icon,
+    .values__name--list,
+    #values p {
+      text-align: center;}
 
   #pricing .plan {
     width: 100%; /* Full width on very small screens */
