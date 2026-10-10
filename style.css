@@ -2151,6 +2151,11 @@ p {
 #features h1 {
   display: block;
 }
+
+ #features p {
+   text-align: center;
+  }
+  
 #features h1 .purple {
   display: inline;
   margin-left: 0;
@@ -2224,9 +2229,7 @@ p {
     padding: 0 24px;
   }
 
-  #features p {
-   text-align: center;
-  }
+ 
   #features h1 {
     font-size: 36px;
   }
