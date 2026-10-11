@@ -2312,4 +2312,27 @@ margin:0;
   #testimonials .testimonials__content h3 {
     text-align: left;
   }
+
+    /* Features */
+  .features__service-item {
+    justify-items: start;
+    text-align: left;
+  }
+
+  .features__service-item > p {
+    text-align: left;
+  }
+
+    /* Testimonials */
+  #testimonials .testimonials__content,
+  #testimonials .test__customers,
+  #testimonials .test__customers h1,
+  #testimonials .test__customers h2,
+  #testimonials .test__customers h3,
+  #testimonials .test__customers p {
+    text-align: left;
+  }
+    #testimonials .test__customer {
+    justify-content: flex-start;
+  }
 }
