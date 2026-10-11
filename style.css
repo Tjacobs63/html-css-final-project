@@ -1860,7 +1860,7 @@ margin:0;
 }
 
 .quality__work p{
-  text-align: center;
+  text-align: left;
 
 } 
 
@@ -1885,7 +1885,7 @@ margin:0;
   .values__icon,
   .values__name--list,
   #values p {
-    text-align: center;
+    text-align: left;
   } 
 
 
@@ -1893,7 +1893,7 @@ margin:0;
 #testimonials h3,
 #testimonials h1,
 #testimonials p {
-  text-align: center;}
+  text-align: left;}
 }
 
 
@@ -2332,7 +2332,7 @@ margin:0;
   #testimonials .test__customers p {
     text-align: left;
   }
-  
+
     #testimonials .test__customer {
     justify-content: flex-start;
   }
