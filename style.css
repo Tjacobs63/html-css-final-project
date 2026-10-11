@@ -978,7 +978,7 @@ TESTIMONIALS ↓
   flex-direction: column;
   width: 40%;
   margin-bottom: 16px;
-  padding: 10px;
+  padding: 0 0 8px;
   align-items: flex-start;
   box-sizing: border-box;
   justify-content: space-between;
@@ -1864,8 +1864,8 @@ margin:0;
 
 } 
 
-.step {
-  text-align: center; }
+.step h3{
+  text-align: left; }
 
   .step__number {
     font-size: 28px;
@@ -1884,16 +1884,24 @@ margin:0;
 
   .values__icon,
   .values__name--list,
-  #values p {
+  #values p > b{
     text-align: left;
+    margin: 0;
   } 
 
 
 
 #testimonials h3,
 #testimonials h1,
-#testimonials p {
-  text-align: left;}
+#testimonials p,
+.testimonial__rating,
+#testimonials h2
+
+{
+  text-align: left;
+  margin: 0 auto;
+
+}
 }
 
 
@@ -2331,6 +2339,7 @@ margin:0;
   #testimonials .test__customers h3,
   #testimonials .test__customers p {
     text-align: left;
+    margin: 0 auto;
   }
 
     #testimonials .test__customer {
