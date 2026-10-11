@@ -692,6 +692,13 @@ VALUES ↓
    
 }
 
+.value__title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
 button.value__btn{
     text-align: left;
 }
@@ -2168,8 +2175,11 @@ margin:0;
   display: block;
 }
 
- #features p {
+ {
    text-align: center;
+  }
+  #features .row__descrption {
+    text-align: center;
   }
 
 #features h1 .purple {
@@ -2345,5 +2355,11 @@ margin:0;
 
     #testimonials .test__customer {
     justify-content: flex-start;
+  }
+
+    #testimonials .test__customers > p {
+    text-align: left;
+    margin: 0;
+    padding: 0;
   }
 }
