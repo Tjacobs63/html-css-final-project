@@ -1864,9 +1864,6 @@ margin:0;
 
 } 
 
-
-
-
 .step {
   text-align: center; }
 
@@ -2302,5 +2299,17 @@ margin:0;
 
   footer {
     padding: 40px 12px;
+  }
+}
+
+
+@media (min-width: 1025px) {
+  #quality .quality__work p,
+  #values .values__description p,
+  #testimonials .testimonials__content p,
+  #testimonials .testimonials__content h1,
+  #testimonials .testimonials__content h2,
+  #testimonials .testimonials__content h3 {
+    text-align: left;
   }
 }
