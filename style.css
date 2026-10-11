@@ -2263,3 +2263,43 @@ p {
     text-align: center;
   }
 }
+
+@media (max-width: 480px) {
+  section {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+    .steps__img--wrapper {
+    width: 100%;
+    flex: none;
+    margin: 0 auto 20px;
+  }
+
+  .steps__img--wrapper img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Footer alignment */
+  .info__list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px 12px;
+  }
+
+  .info__lists {
+    padding: 8px;
+    margin: 0;
+    align-items: flex-start;
+  }
+
+  footer {
+    padding: 40px 12px;
+  }
+}
