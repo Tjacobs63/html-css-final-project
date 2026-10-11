@@ -1022,7 +1022,7 @@ figure {
 }
 
 figure .testimonials__img {
-  width: 100%;
+  width: 90%;
   height: auto;
   margin: 24px 48px 24px 0;
   border-radius: 8px;
@@ -1747,11 +1747,14 @@ MOBILE RESPONSIVENESS ↓
     align-items: center;
    
   }
+
 .test__customers,
+.testimonial__img
 {
   text-align: center;
   
 }
+
 .test__buttons{
 text-align: center;
 
@@ -1860,8 +1863,7 @@ margin:0;
   text-align: center;
 
 } 
-p {
-  text-align: center;}
+
 
 
 
@@ -1976,6 +1978,7 @@ p {
     text-align: center;
     justify-content: center;
   }
+
 .values__description {
   display: flex;
   justify-content: center;
@@ -2089,7 +2092,8 @@ p {
   }
 
   .step__para{
-    text-align: center;}
+    text-align: center;
+  }
 
     .values__title,
     .values__principles,
@@ -2130,6 +2134,7 @@ p {
     align-items: center;
     padding-top: 4px;
   }
+
 .test__buttons,
 .testimonial__name,
 .testimonial__role {
@@ -2234,7 +2239,6 @@ p {
     padding: 0 24px;
   }
 
- 
   #features h1 {
     font-size: 36px;
   }
