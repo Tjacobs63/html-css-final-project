@@ -1710,7 +1710,7 @@ MOBILE RESPONSIVENESS ↓
   .values__img--wrapper {
     width: 100%;
     height: auto;
-    margin-top: 0 0 32px;
+    margin: 0 0 32px;
   }
 
   .values__list {
@@ -1797,6 +1797,12 @@ text-align: center;
     justify-content: center;
   }
 
+  #start .start__buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px; }
+
   .btn__start,
   .btn__contact {
     width: auto; /* Reset button width */
@@ -1822,7 +1828,6 @@ margin:0;
 
  
   #start .row {
-    flex-direction: row; /* Switch to row layout */
     justify-content: space-around; /* Space out buttons */
   }
 
@@ -2138,6 +2143,9 @@ p {
     margin: 0 4px; /* Horizontal margin */
     flex-direction: column;
   }
+
+
+
 }
 
 #features .container {
@@ -2155,7 +2163,7 @@ p {
  #features p {
    text-align: center;
   }
-  
+
 #features h1 .purple {
   display: inline;
   margin-left: 0;
