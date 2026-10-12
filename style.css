@@ -999,15 +999,20 @@ TESTIMONIALS ↓
   color: #7c8ba1;
   line-height: 1.625;
   text-align: left;
+  padding-bottom: 24px;
+  margin-bottom: 8px;
 }
 #testimonials h2 {
-Margin-bottom: 4px;
+padding-bottom: 16px;
 text-align: left;
 margin-left: 18px;
 
 }
 
-
+.testimonial___rating {
+  padding-bottom: 16px;
+  margin-bottom: 8px;
+}
 figure {
   flex: 1;
  
