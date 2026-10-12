@@ -17,10 +17,6 @@ body {
   overflow-x: hidden;
 }
 
-nav {
-  height: 100px;
-  display: flex;
-}
 
 h1 {
   font-size: 48px;
@@ -779,14 +775,17 @@ button.value__btn{
   line-height: 1.5;
   margin: 16px 0;
   letter-spacing: 0.025em;
+  margin: 10px 0;
+  text-align: left;
+  padding: 0;
+  display: block;
 }
 
 .values__description p {
     margin: 10px 0;
 }
 
-.values__title,
-.values__principles {
+.values__title {
   margin: 10px 0;
 }
 
@@ -1125,13 +1124,18 @@ START / CALL TO ACTION ↓
   margin: 0 auto;
 }
 
+
+
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", system-ui;
   color: #243e63;
 }
+
 
 .start__now {
   color: white;
@@ -2175,10 +2179,8 @@ margin:0;
   display: block;
 }
 
- {
-   text-align: center;
-  }
-  #features .row__descrption {
+
+  #features .row__description {
     text-align: center;
   }
 
