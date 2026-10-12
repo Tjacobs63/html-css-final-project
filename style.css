@@ -1557,6 +1557,17 @@ MOBILE RESPONSIVENESS ↓
     width: auto;
     margin: 24px; }
 
+     .features__service {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 768px;
+  }
+  .features__service-item {
+    padding: 32px 8px;
+  }
+  #features .row__description {
+    font-size: 16px;
+  }
+
 }
 
 @media (min-width: 900px) {
@@ -2301,18 +2312,7 @@ margin:0;
 }
 
 
-
-  .features__service {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    max-width: 768px;
-  }
-  .features__service-item {
-    padding: 32px 8px;
-  }
-  #features .row__description {
-    font-size: 16px;
-  }
-
+ 
 }
 
 @media (max-width: 480px) {
