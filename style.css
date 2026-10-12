@@ -1410,33 +1410,48 @@ MOBILE RESPONSIVENESS ↓
 }
 
 
+@media (min-width: 1025px) {
+  #quality .quality__work p,
+  #values .values__description p,
+  #testimonials .testimonials__content p,
+  #testimonials .testimonials__content h1,
+  #testimonials .testimonials__content h2,
+  #testimonials .testimonials__content h3 {
+    text-align: left;
+  }
 
+    /* Features */
+  .features__service-item {
+    justify-items: start;
+    text-align: left;
+  }
 
+  .features__service-item > p {
+    text-align: left;
+  }
 
+    /* Testimonials */
+  #testimonials .testimonials__content,
+  #testimonials .test__customers,
+  #testimonials .test__customers h1,
+  #testimonials .test__customers h2,
+  #testimonials .test__customers h3,
+  #testimonials .test__customers p {
+    text-align: left;
+    margin: 0 auto;
+  }
 
+    #testimonials .test__customer {
+    justify-content: flex-start;
+  }
 
+    #testimonials .test__customers > p {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*media queries*/
 
 @media (max-width: 1024px) {
 
@@ -1553,6 +1568,8 @@ MOBILE RESPONSIVENESS ↓
     font-size: 48px; /* Original size for desktops */
   }
 }
+
+
 
 @media (max-width: 768px) {
   .nav__links {
@@ -1856,8 +1873,6 @@ margin:0;
     font-size: 14px;
   }
 }
-
-
 
 
 
@@ -2340,45 +2355,3 @@ margin:0;
   }
 }
 
-
-@media (min-width: 1025px) {
-  #quality .quality__work p,
-  #values .values__description p,
-  #testimonials .testimonials__content p,
-  #testimonials .testimonials__content h1,
-  #testimonials .testimonials__content h2,
-  #testimonials .testimonials__content h3 {
-    text-align: left;
-  }
-
-    /* Features */
-  .features__service-item {
-    justify-items: start;
-    text-align: left;
-  }
-
-  .features__service-item > p {
-    text-align: left;
-  }
-
-    /* Testimonials */
-  #testimonials .testimonials__content,
-  #testimonials .test__customers,
-  #testimonials .test__customers h1,
-  #testimonials .test__customers h2,
-  #testimonials .test__customers h3,
-  #testimonials .test__customers p {
-    text-align: left;
-    margin: 0 auto;
-  }
-
-    #testimonials .test__customer {
-    justify-content: flex-start;
-  }
-
-    #testimonials .test__customers > p {
-    text-align: left;
-    margin: 0;
-    padding: 0;
-  }
-}
