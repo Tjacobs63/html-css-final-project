@@ -1247,6 +1247,21 @@ FOOTER ↓
   background-color: rgb(100, 21, 255);
 }
 
+.footer__brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer__brand .footer__img {
+  margin: 0;
+}
+
+.footer__brand .footer__logo-text {
+  margin: 0;
+  padding: 0;
+}
+
 .footer__img {
   height: 44px;
   width: 44px;
@@ -1550,6 +1565,8 @@ MOBILE RESPONSIVENESS ↓
   align-items: center;
   justify-content: center;
 }
+
+
   #pricing h3 {
     text-align: center;
     margin: 0 auto;
@@ -1564,6 +1581,14 @@ MOBILE RESPONSIVENESS ↓
     align-items: center;
     margin: 0 auto;
   }
+
+  #testimonials p,
+  #testimonials h2 {
+    margin: 0;
+    padding: 0;
+
+      }
+      
   footer {
     padding: 80px 32px;
   }
@@ -1924,13 +1949,7 @@ text-align: center;
     flex-direction: column;
   }
 
-  .footer__img,
-  .footer__logo--text {
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
-  }
+
 
 .footer__logo{
 flex-direction: column;
