@@ -890,7 +890,7 @@ PRICING ↓
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 10px;
+  margin: 0;
   font-size: 14px;
   padding: 32px;
   background-color: #fff;
@@ -905,6 +905,7 @@ background-color: #6415ff;
 
 #pricing .plan__business h2,
 #pricing .plan__business h4,
+#pricing .plan__business b,
 #pricing .plan__business li{
 color: #fff }
 
@@ -916,7 +917,7 @@ color: #fff }
   width: 100%;
   height: auto;
   flex-wrap: wrap;
-  max-width: 1024px;
+  max-width: 1280px;
   margin: 0 auto;
 
 }
@@ -1473,9 +1474,6 @@ MOBILE RESPONSIVENESS ↓
   }
 
   #pricing .plan {
-    background-color: white;
-    width: 280px; /* Fixed width for larger screens */
-    margin: 20px;
     padding: 25px;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
