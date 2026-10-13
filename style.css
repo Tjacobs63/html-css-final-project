@@ -1588,7 +1588,7 @@ MOBILE RESPONSIVENESS ↓
     padding: 0;
 
       }
-      
+
   footer {
     padding: 80px 32px;
   }
@@ -1891,6 +1891,7 @@ MOBILE RESPONSIVENESS ↓
 
 .test__buttons{
 text-align: center;
+margin-top: 24px;
 
 }
 
