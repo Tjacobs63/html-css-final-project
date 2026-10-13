@@ -1933,6 +1933,9 @@ text-align: center;
 width: auto;
 margin:0;
 }
+.footer__img {
+  margin-top: 16px;
+}
 
   .features__service {
     grid-template-columns: minmax(0, 384px);
