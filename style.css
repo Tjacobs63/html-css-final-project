@@ -1886,11 +1886,12 @@ text-align: center;
 #testimonials h3,
  #testimonials h2, 
  #testimonials p,
- #testimonials h1{
+ #testimonials h1
+ {
   text-align: center;
 
 }
- 
+
 
   #start .row {
     flex-direction: column;
@@ -2287,17 +2288,7 @@ margin:0;
   } 
 
 
-#testimonials h3,
-#testimonials h1,
-#testimonials p,
-.testimonial__rating,
-#testimonials h2
 
-{
-  text-align: left;
-  margin: 0 auto;
-
-}
 
 #features .container {
   display: block;
