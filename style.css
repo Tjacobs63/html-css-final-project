@@ -842,6 +842,10 @@ PRICING ↓
   margin: 0 auto;
 }
 
+#pricing li {
+  padding: 8px;
+}
+
 .plan__personal {
   border-top: 5px solid rgb(32, 224, 32);
   width: calc(33.33% - 20px);
