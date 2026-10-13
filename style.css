@@ -899,11 +899,16 @@ PRICING ↓
   
 }
 
-.plan__business h2,
-.plan__business h4,
-.plan__business b,
-.plan__business l1 {
+#pricing .plan__business{
+background-color: #6415ff;
+}
+
+#pricing .plan__business h2,
+#pricing .plan__business h4,
+#pricing .plan__business li{
 color: #fff }
+
+
 
 .plans {
   display: flex;
